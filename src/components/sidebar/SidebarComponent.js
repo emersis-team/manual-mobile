@@ -3,8 +3,9 @@ import { Column, Row } from 'simple-flexbox';
 import { StyleSheet, css } from 'aphrodite';
 import LogoComponent from './LogoComponent';
 import MenuItemComponent from './MenuItemComponent';
-import IconAgents from '../../assets/icon-agents';
-import IconBurger from '../../assets/icon-burger';
+import IconAgents from './../../assets/icon-agents';
+import IconBurger from './../../assets/icon-burger';
+import history from './../../History';
 
 const styles = StyleSheet.create({
 
@@ -121,24 +122,60 @@ class SidebarComponent extends React.Component {
 
                         <Column className={css(styles.menuItemList)}>
 
-                            <MenuItemComponent
-                                title="Capítulo 1" icon={IconAgents}
-                                onClick={() => this.props.onChange('Capítulo 1')}
-                                active={this.props.selectedItem === 'Capítulo 1'}
-                            />
+                            <form>
 
-                            <MenuItemComponent
-                                title="Capítulo 2" icon={IconAgents}
-                                onClick={() => this.props.onChange('Capítulo 2')}
-                                active={this.props.selectedItem === 'Capítulo 2'}
-                            />
+                                <MenuItemComponent
+                                    title="Inicio" icon={IconAgents}
+                                    onClick={
+                                        () => {
+                                            this.props.onChange('Inicio');
+                                            history.push('/');
+                                        }
+                                    }
+                                    active={this.props.selectedItem === 'Inicio'}
+                                />
 
-                            <div className={css(styles.separator)}></div>
+                                <MenuItemComponent
+                                    title="Capítulo 1" icon={IconAgents}
+                                    onClick={
+                                        () => {
+                                            this.props.onChange('Capítulo 1');
+                                            history.push('/capitulo1');
+                                        }
+                                    }
+                                    active={this.props.selectedItem === 'Capítulo 1'}
+                                />
 
-                            <MenuItemComponent
-                                title="Configuración" icon={IconAgents}
-                                onClick={() => this.props.onChange('Configuración')}
-                                active={this.props.selectedItem === 'Configuración'} />
+                                <MenuItemComponent
+                                    title="Capítulo 2" icon={IconAgents}
+                                    onClick={
+                                        () => {
+                                            this.props.onChange('Capítulo 2');
+                                            history.push('/capitulo2');
+                                        }
+                                    }
+                                    active={this.props.selectedItem === 'Capítulo 2'}
+                                />
+
+                                <MenuItemComponent
+                                    title="Capítulo 3" icon={IconAgents}
+                                    onClick={
+                                        () => {
+                                            this.props.onChange('Capítulo 3');
+                                            history.push('/capitulo3');
+                                        }
+                                    }
+                                    active={this.props.selectedItem === 'Capítulo 3'}
+                                />
+
+                                <div className={css(styles.separator)}></div>
+
+                                <MenuItemComponent
+                                    title="Configuración" icon={IconAgents}
+                                    onClick={() => this.props.onChange('Configuración')}
+                                    active={this.props.selectedItem === 'Configuración'} />
+
+                            </form>
 
                         </Column>
 

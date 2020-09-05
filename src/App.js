@@ -3,12 +3,14 @@ import { Column, Row } from 'simple-flexbox';
 import { StyleSheet, css } from 'aphrodite';
 import SidebarComponent from './components/sidebar/SidebarComponent';
 import HeaderComponent from './components/header/HeaderComponent';
+import Routes from './Routes';
 import './App.css';
 
 const styles = StyleSheet.create({
 
     container: {
-        height: '100vh'
+        height: '100%',
+        minHeight: '100vh'
     },
 
     content: {
@@ -24,7 +26,7 @@ const styles = StyleSheet.create({
 
 class App extends React.Component {
 
-    state = { selectedItem: 'Capítulo 1' };
+    state = { selectedItem: 'Inicio' };
 
     componentDidMount() {
         window.addEventListener('resize', this.resize);
@@ -42,24 +44,38 @@ class App extends React.Component {
 
         return (
 
-            <Row className={css(styles.container)}>
+            <>
 
-                <SidebarComponent
-                    selectedItem={selectedItem}
-                    onChange={(selectedItem) => this.setState({ selectedItem })}
-                />
-                <Column
-                    flexGrow={1}
-                    className={css(styles.mainBlock)}
-                >
-                    <HeaderComponent title={selectedItem} />
-                    <div className={css(styles.content)}>
-                        <span>Contenido</span>
-                    </div>
-                </Column>
-            </Row>
+                <Row className={css(styles.container)}>
+
+                    <SidebarComponent
+                        selectedItem={selectedItem}
+                        onChange={(selectedItem) => this.setState({ selectedItem })}
+                    />
+
+                    <Column
+                        flexGrow={1}
+                        className={css(styles.mainBlock)}
+                    >
+
+                        <HeaderComponent title={selectedItem} />
+
+                        <div className={css(styles.content)}>
+
+                            <Routes />
+
+                        </div>
+
+                    </Column>
+
+                </Row>
+
+            </>
+
         );
+
     }
+
 }
 
 export default App;
