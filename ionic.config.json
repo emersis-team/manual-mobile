@@ -1,0 +1,7 @@
+{
+  "name": "libreta",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "ionic-angular"
+}
