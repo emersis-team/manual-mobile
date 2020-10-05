@@ -1,9 +1,8 @@
 {
-  "homepage": "https://emersis-team.github.io/manual-mobile",
+  "homepage": "http://ionicframework.com/",
   "name": "libreta",
   "version": "0.0.1",
   "author": "Ionic Framework",
-  "homepage": "http://ionicframework.com/",
   "private": true,
   "scripts": {
     "predeploy": "npm run build",
@@ -29,6 +28,7 @@
     "@ionic-native/status-bar": "4.20.0",
     "@ionic/pwa-elements": "^3.0.1",
     "@ionic/storage": "2.2.0",
+    "angular-cli-ghpages": "^0.6.2",
     "capacitor-video-player": "^2.4.2-1",
     "ionic-angular": "3.9.9",
     "ionicons": "3.0.0",
