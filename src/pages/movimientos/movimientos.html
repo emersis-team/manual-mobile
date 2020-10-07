@@ -1,24 +1,26 @@
 <ion-header>
-    <ion-navbar>
-      <button ion-button menuToggle>
-        <ion-icon name="menu"></ion-icon>
-      </button>
-      <ion-title>List</ion-title>
-    </ion-navbar>
-  </ion-header>
-  
-  <ion-content>
-    <ion-list>
-      <button ion-item *ngFor="let item of items" (click)="itemTapped($event, item)">
-        <ion-icon [name]="item.icon" item-start></ion-icon>
-        {{item.title}}
-        <div class="item-note" item-end>
-          {{item.note}}
-        </div>
-      </button>
-    </ion-list>
-    <div *ngIf="selectedItem" padding>
-      You navigated here from <b>{{selectedItem.title}}</b>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Procedimiento 1</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+
+  <div style="display: flex; flex-flow: column; text-align: center;">
+
+    <div style="flex: 1;">
+      <h3>Movimiento 1</h3>
+      <img src="../../assets/imgs/movimiento1.png">
     </div>
-    <div id="fullscreen" slot="fixed"></div>
-  </ion-content>
+
+    <div style="flex: 1;">
+      <h3>Movimiento 2</h3>
+      <img src="../../assets/imgs/movimiento2.jpg">
+    </div>
+
+  </div>
+
+</ion-content>
