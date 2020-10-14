@@ -1,0 +1,10 @@
+// Actualizacion en github
+$ ionic build --prod --base-href https://emersis-team.github.io/manual-mobile/
+$ npx angular-cli-ghpages --dir=www
+
+// Test en android
+$ ionic build
+$ ionic cap add android
+$ ionic cap copy
+$ ionic cap sync
+$ npx cap open android

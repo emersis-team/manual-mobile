@@ -5,7 +5,10 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { MovimientosPage } from '../pages/movimientos/movimientos';
-import { ListPage } from '../pages/list/list';
+import { OfensivosPage } from '../pages/ofensivos/ofensivos';
+import { DefensivosPage } from '../pages/defensivos/defensivos';
+import { OtrosPage } from '../pages/otros/otros';
+import { ProteccionPage } from '../pages/proteccion/proteccion';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -15,7 +18,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     MovimientosPage,
-    ListPage
+    ProteccionPage,
+    OfensivosPage,
+    DefensivosPage,
+    OtrosPage
   ],
   imports: [
     BrowserModule,
@@ -26,7 +32,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     MovimientosPage,
-    ListPage
+    ProteccionPage,
+    OfensivosPage,
+    DefensivosPage,
+    OtrosPage
   ],
   providers: [
     StatusBar,
