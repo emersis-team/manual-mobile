@@ -1,13 +1,4 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Libreta del Jefe de Sección Tanques</ion-title>
-  </ion-navbar>
-</ion-header>
-
-<ion-content padding style="background-color: #72000a;">
+<ion-content padding style="background-color: #831013;">
 
   <div style="
     display: flex;
@@ -19,28 +10,35 @@
     <div style="flex: 1; align-self: center;">
       <img src="./assets/imgs/diseno.png">
     </div>
-    
+
     <div style="flex: 1; color: white; align-self: center;">
       <h4 style="text-align: center;">LIBRETA <br> J SEC TAN</h4>
     </div>
 
     <div style="flex: 1; color: white; align-self: center; padding-left: 10%; padding-right: 10%;">
       <P style="text-align: center;">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ipsum sed mauris imperdiet, id suscipit velit porta. Phasellus sodales in mauris ut malesuada. Pellentesque tincidunt bibendum lorem, eu iaculis nulla facilisis fermentum. Suspendisse fringilla dictum fermentum. Aliquam nec felis ullamcorper, vehicula sem sit amet, congue metus. Nunc semper erat sem, nec consequat arcu efficitur id. Maecenas eget est porttitor, vulputate enim et, vestibulum leo. Sed dignissim sagittis finibus. Nunc consequat rhoncus nisl, eu consectetur est semper eget.
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ipsum sed mauris imperdiet, id
+        suscipit velit porta. Phasellus sodales in mauris ut malesuada. Pellentesque tincidunt bibendum lorem, eu
+        iaculis nulla facilisis fermentum. Suspendisse fringilla dictum fermentum. Aliquam nec felis ullamcorper,
+        vehicula sem sit amet, congue metus. Nunc semper erat sem, nec consequat arcu efficitur id. Maecenas eget est
+        porttitor, vulputate enim et, vestibulum leo. Sed dignissim sagittis finibus. Nunc consequat rhoncus nisl, eu
+        consectetur est semper eget.
       </P>
     </div>
 
-    <div style="flex: 1; align-self: center; width: 100%; text-align: center; ">
-      <button style="background-color: #424040a8;
-      border: 1px solid white;
-      color: white;
-      padding: 10px 20px;
+    <div style="
+      flex: 1; 
+      align-self: center; 
+      width: 100%; 
       text-align: center;
-      text-decoration: none;
-      display: inline-block;
-      margin: 4px 2px;
-      cursor: pointer;
-      border-radius: 16px;">Procedimiento de Combate</button>
+    ">
+
+      <button id="procedimientoCombate" (click)="goToProcedimientosCombate()">
+
+        Procedimiento de Combate
+
+      </button>
+
     </div>
 
   </div>

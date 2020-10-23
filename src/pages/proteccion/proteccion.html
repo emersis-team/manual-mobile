@@ -1,52 +1,110 @@
 <ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Procedimientos de Protección</ion-title>
+
+  <ion-navbar color="primary">
+
+    <ion-title>Procedimientos de combate</ion-title>
+
+    <div style="display: flex;">
+
+      <div style="flex: 1;">
+
+        <button ion-button style="background-color: transparent;" (click)="goToHome()">
+          <ion-icon name="arrow-back"></ion-icon>
+        </button>
+
+      </div>
+
+      <div style="flex: 1; text-align: right;">
+
+        <button ion-button style="background-color: transparent;">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+
   </ion-navbar>
+
+  <ion-toolbar style="padding-top: 10px !important; padding-bottom: 10px !important;" mode="md" color="primary">
+
+    <ion-segment #segments mode="md" [(ngModel)]="page" color="light">
+
+      <ion-segment-button value="0" (click)="selectedTab(0)">
+        Proteccion
+      </ion-segment-button>
+
+      <ion-segment-button value="1" (click)="selectedTab(1)">
+        Movimientos
+      </ion-segment-button>
+
+      <ion-segment-button value="2" (click)="selectedTab(2)">
+        Ofensivos
+      </ion-segment-button>
+
+      <ion-segment-button value="3" (click)="selectedTab(3)">
+        Defensivos
+      </ion-segment-button>
+
+      <ion-segment-button value="4" (click)="selectedTab(4)">
+        Otros
+      </ion-segment-button>
+
+    </ion-segment>
+
+  </ion-toolbar>
+
 </ion-header>
 
-<ion-content>
+<ion-content style="background-color: rgb(210, 217, 226);">
 
-  <div style="display: flex; flex-flow: column; text-align: center;">
+  <ion-slides #slider (ionSlideDidChange)="slideChanged()">
 
-    <div style="flex: 1;">
-      <h3>Contra misiles Atan</h3>
-      <video width="100%" controls="controls" preload="metadata" webkit-playsinline="webkit-playsinline"
-        class="videoPlayer">
-        <source src="./assets/imgs/video1.mp4" type="video/mp4" />
-      </video>
-    </div>
+    <ion-slide>
 
-    <div style="flex: 1;">
-      <h3>Contra Fgo A</h3>
-      <video width="100%" controls="controls" preload="metadata" webkit-playsinline="webkit-playsinline"
-        class="videoPlayer">
-        <source src="./assets/imgs/video2.mp4" type="video/mp4" />
-      </video>
-    </div>
+      <ion-list lines="none">
 
-    <div style="flex: 1;">
-      <h3>Contra Atq Ae - Aviones</h3>
-    </div>
+        <ion-item lines="none" style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important" *ngFor="let dummy of ' '.repeat(4).split(''), let i = index">
 
-    <div style="flex: 1;">
-      <h3>Contra Atq Ae - Helicópteros</h3>
-    </div>
+          <ion-card style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important; width: fit-content !important;">
 
-    <div style="flex: 1;">
-      <h3>Contra minas</h3>
-    </div>
+            <ion-card-content style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
+              Keep close to Nature's heart... and break clear away, once in awhile,
+              and climb a mountain or spend a week in the woods. Wash your spirit clean.
+            </ion-card-content>
 
-    <div style="flex: 1;">
-      <h3>Contra Obs y Vig</h3>
-    </div>
+          </ion-card>
 
-    <div style="flex: 1;">
-      <h3>Tipos de posiciones</h3>
-    </div>
+        </ion-item>
 
-  </div>
+      </ion-list>
+
+    </ion-slide>
+
+    <ion-slide>
+
+      <h1>Tab 2</h1>
+
+    </ion-slide>
+
+    <ion-slide>
+
+      <h1>Tab 3</h1>
+
+    </ion-slide>
+
+    <ion-slide>
+
+      <h1>Tab 4</h1>
+
+    </ion-slide>
+
+    <ion-slide>
+
+      <h1>Tab 5</h1>
+
+    </ion-slide>
+
+  </ion-slides>
 
 </ion-content>
