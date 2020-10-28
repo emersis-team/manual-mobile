@@ -9,6 +9,7 @@ import { OfensivosPage } from '../pages/ofensivos/ofensivos';
 import { DefensivosPage } from '../pages/defensivos/defensivos';
 import { OtrosPage } from '../pages/otros/otros';
 import { ProteccionPage } from '../pages/proteccion/proteccion';
+import { VideoPage } from '../pages/video/video';
 
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
@@ -21,7 +22,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProteccionPage,
     OfensivosPage,
     DefensivosPage,
-    OtrosPage
+    OtrosPage,
+    VideoPage
   ],
   imports: [
     BrowserModule,
@@ -35,7 +37,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     ProteccionPage,
     OfensivosPage,
     DefensivosPage,
-    OtrosPage
+    OtrosPage,
+    VideoPage
   ],
   providers: [
     StatusBar,

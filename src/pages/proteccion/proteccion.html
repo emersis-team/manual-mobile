@@ -65,6 +65,8 @@
 
 <ion-content style="background-color: rgb(210, 217, 226);">
 
+  <video id="player" hidden controls></video>
+
   <ion-slides #slider (ionSlideDidChange)="slideChanged()">
 
     <ion-slide>
@@ -75,13 +77,38 @@
           style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
           *ngFor="let dummy of ' '.repeat(4).split(''), let i = index">
 
-          <ion-card
-            style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important; width: fit-content !important;">
+          <ion-card>
 
             <ion-card-content
               style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
-              Keep close to Nature's heart... and break clear away, once in awhile,
-              and climb a mountain or spend a week in the woods. Wash your spirit clean.
+
+              <div style="
+                display: flex;
+                flex-wrap:nowrap; 
+                height: 100px;">
+
+                <div style="
+                flex: 1;">
+
+                  <img src="./assets/imgs/logo.png" (click)="goVideo('./assets/imgs/video3.mp4');" />
+
+                </div>
+
+                <div style="
+                flex: 1;
+                word-wrap: break-word;
+                overflow-wrap: break-word;">
+                  <h4>Video Nro</h4>
+                  <br />
+                  <div style="width: 200px;">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ipsum sed mauris
+                    imperdiet, id
+                    suscipit velit porta.
+                  </div>
+                </div>
+
+              </div>
+
             </ion-card-content>
 
           </ion-card>

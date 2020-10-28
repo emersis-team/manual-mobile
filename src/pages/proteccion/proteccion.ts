@@ -2,6 +2,7 @@ import { Component, ViewChild } from '@angular/core';
 import { NavController, Slides } from 'ionic-angular';
 
 import { HomePage } from '../home/home';
+import { VideoPage } from '../video/video';
 
 @Component({
     selector: 'page-list',
@@ -17,6 +18,27 @@ export class ProteccionPage {
 
     }
 
+    goVideo(videoUrl: string) {
+
+        this.navCtrl.setRoot(VideoPage, {
+            videoUrl: videoUrl
+        });
+
+        /*let player = document.getElementById("player");
+
+        player.style.display = "block";
+
+        player.src = video;
+        player.load();
+        if (player.mozRequestFullScreen) {
+            player.mozRequestFullScreen();
+        } else if (player.webkitRequestFullScreen) {
+            player.webkitRequestFullScreen();
+        }
+        player.play();*/
+
+    }
+
     goToHome() {
         this.navCtrl.setRoot(HomePage);
     }
@@ -29,7 +51,6 @@ export class ProteccionPage {
     // On segment click
     selectedTab(index) {
         this.slider.slideTo(index);
-        console.log("selectedTab", index)
     }
 
     // On slide changed
