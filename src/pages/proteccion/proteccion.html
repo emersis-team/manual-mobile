@@ -75,7 +75,7 @@
 
         <ion-item lines="none"
           style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
-          *ngFor="let dummy of ' '.repeat(4).split(''), let i = index">
+          *ngFor="let dummy of ' '.repeat(5).split(''), let i = index">
 
           <ion-card>
 
@@ -83,28 +83,44 @@
               style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
 
               <div style="
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
                 display: flex;
-                flex-wrap:nowrap; 
-                height: 100px;">
+                align-items: center;
+                justify-content: center;">
 
                 <div style="
-                flex: 1;">
+                  flex: 1; 
+                  text-align: center;">
 
-                  <img src="./assets/imgs/logo.png" (click)="goVideo('./assets/imgs/video3.mp4');" />
+                  <div style="
+                      background-color: rgb(110, 1, 7);
+                      border-radius: 13%;
+                      margin: 11%;">
+
+                    <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
+                      (click)="goVideo('./assets/imgs/video3.mp4');" />
+
+                  </div>
 
                 </div>
 
                 <div style="
-                flex: 1;
-                word-wrap: break-word;
-                overflow-wrap: break-word;">
-                  <h4>Video Nro</h4>
-                  <br />
-                  <div style="width: 200px;">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ipsum sed mauris
-                    imperdiet, id
-                    suscipit velit porta.
-                  </div>
+                  flex: 3; 
+                  text-align: left;">
+
+                  <h2 style="
+                    Color: rgb(110, 1, 7);">
+                    Video {{i + 1}}
+                  </h2>
+
+                  <p style="white-space: pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
                 </div>
 
               </div>
@@ -121,7 +137,67 @@
 
     <ion-slide>
 
-      <h1>Tab 2</h1>
+      <ion-list lines="none">
+
+        <ion-item lines="none"
+          style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
+          *ngFor="let dummy of ' '.repeat(2).split(''), let i = index">
+
+          <ion-card>
+
+            <ion-card-content
+              style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
+
+              <div style="
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;">
+
+                <div style="
+                  flex: 1; 
+                  text-align: center;">
+
+                  <div style="
+                      background-color: rgb(110, 1, 7);
+                      border-radius: 13%;
+                      margin: 11%;">
+
+                    <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
+                      (click)="goVideo('./assets/imgs/video2.mp4');" />
+
+                  </div>
+
+                </div>
+
+                <div style="
+                  flex: 3; 
+                  text-align: left;">
+
+                  <h2 style="
+                    Color: rgb(110, 1, 7);">
+                    Video {{i + 1}}
+                  </h2>
+
+                  <p style="white-space: pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+
+                </div>
+
+              </div>
+
+            </ion-card-content>
+
+          </ion-card>
+
+        </ion-item>
+
+      </ion-list>
 
     </ion-slide>
 

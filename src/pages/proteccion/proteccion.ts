@@ -24,19 +24,6 @@ export class ProteccionPage {
             videoUrl: videoUrl
         });
 
-        /*let player = document.getElementById("player");
-
-        player.style.display = "block";
-
-        player.src = video;
-        player.load();
-        if (player.mozRequestFullScreen) {
-            player.mozRequestFullScreen();
-        } else if (player.webkitRequestFullScreen) {
-            player.webkitRequestFullScreen();
-        }
-        player.play();*/
-
     }
 
     goToHome() {
@@ -62,8 +49,6 @@ export class ProteccionPage {
         if (this.page >= slides_count)
             this.page = (slides_count - 1).toString();
 
-        console.log("slides_count", slides_count)
-        console.log("this.page", this.page)
         this.centerScroll();
     }
 
@@ -73,11 +58,23 @@ export class ProteccionPage {
             return;
 
         let sizeLeft = this.sizeLeft();
+
         let sizeCurrent = this.segments.nativeElement.children[this.page].clientWidth;
         let result = sizeLeft - (window.innerWidth / 2) + (sizeCurrent / 2);
 
         result = (result > 0) ? result : 0;
         this.smoothScrollTo(result);
+
+    }
+
+    isInViewport(element) {
+        const rect = element.getBoundingClientRect();
+        return (
+            rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth)
+        );
     }
 
     // Get size start to current
@@ -109,6 +106,8 @@ export class ProteccionPage {
                 clearInterval(timer);
             }
             this.segments.nativeElement.scrollLeft = newX;
+
+            //console.log(this.isInViewport(this.segments.nativeElement.children[0]), this.page);
         }, 1000 / 60); // 60 fps
     }
 
