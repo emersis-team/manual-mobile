@@ -1,1 +1,530 @@
-webpackJsonp([0],{133:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=133},162:function(l,n){function u(l){return Promise.resolve().then(function(){throw new Error("Cannot find module '"+l+"'.")})}u.keys=function(){return[]},u.resolve=u,l.exports=u,u.id=162},188:function(l,n,u){"use strict";function e(l){return m._19(0,[(l()(),m.Z(0,0,null,null,7,"button",[["class","item item-block"],["ion-item",""],["menuClose",""]],null,[[null,"click"]],function(l,n,u){var e=!0,a=l.component;if("click"===n){e=!1!==m._11(l,6).close()&&e}if("click"===n){e=!1!==a.openPage(l.context.$implicit)&&e}return e},D.b,D.a)),m.Y(1,1097728,null,3,R.a,[F.a,L.a,m.j,m.z,[2,I.a]],null,null),m._16(335544320,4,{contentLabel:0}),m._16(603979776,5,{_buttons:1}),m._16(603979776,6,{_icons:1}),m.Y(5,16384,null,0,M.a,[],null,null),m.Y(6,16384,null,0,q.a,[X.a],{menuClose:[0,"menuClose"]},null),(l()(),m._18(7,2,["\n        ","\n      "]))],function(l,n){l(n,6,0,"")},function(l,n){l(n,7,0,n.context.$implicit.title)})}function a(l){return m._19(0,[m._16(402653184,1,{nav:0}),(l()(),m.Z(1,0,null,null,28,"ion-menu",[["role","navigation"],["type","overlay"]],null,null,null,B.b,B.a)),m._14(6144,null,H.a,null,[N.a]),m.Y(3,245760,null,2,N.a,[X.a,m.j,L.a,U.a,m.z,W.a,G.l,J.a,Q.a],{content:[0,"content"],type:[1,"type"]},null),m._16(335544320,2,{menuContent:0}),m._16(335544320,3,{menuNav:0}),(l()(),m._18(-1,0,["\n  "])),(l()(),m.Z(7,0,null,0,10,"ion-header",[],null,null,null,null,null)),m.Y(8,16384,null,0,$.a,[L.a,m.j,m.z,[2,K.a]],null,null),(l()(),m._18(-1,null,["\n    "])),(l()(),m.Z(10,0,null,null,6,"ion-toolbar",[["class","toolbar"]],[[2,"statusbar-padding",null]],null,null,ll.b,ll.a)),m.Y(11,49152,null,0,nl.a,[L.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n      "])),(l()(),m.Z(13,0,null,3,2,"ion-title",[],null,null,null,ul.b,ul.a)),m.Y(14,49152,null,0,el.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),(l()(),m._18(-1,0,["Procedimientos de Combate"])),(l()(),m._18(-1,3,["\n    "])),(l()(),m._18(-1,null,["\n  "])),(l()(),m._18(-1,0,["\n\n  "])),(l()(),m.Z(19,0,null,0,9,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(20,4374528,[[2,4]],0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n    "])),(l()(),m.Z(22,0,null,1,5,"ion-list",[],null,null,null,null,null)),m.Y(23,16384,null,0,sl.a,[L.a,m.j,m.z,U.a,G.l,J.a],null,null),(l()(),m._18(-1,null,["\n      "])),(l()(),m.U(16777216,null,null,1,null,e)),m.Y(26,802816,null,0,rl.h,[m.I,m.F,m.p],{ngForOf:[0,"ngForOf"]},null),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,1,["\n  "])),(l()(),m._18(-1,0,["\n\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m._18(-1,null,["\n"])),(l()(),m.Z(32,0,null,null,2,"ion-nav",[["swipeBackEnabled","false"]],null,null,null,_l.b,_l.a)),m._14(6144,null,H.a,null,[cl.a]),m.Y(34,4374528,[[1,4],["content",4]],0,cl.a,[[2,K.a],[2,ol.a],Q.a,L.a,U.a,m.j,m.u,m.z,m.i,G.l,dl.a,[2,gl.a],J.a,m.k],{swipeBackEnabled:[0,"swipeBackEnabled"],root:[1,"root"]},null)],function(l,n){var u=n.component;l(n,3,0,m._11(n,34),"overlay");l(n,26,0,u.pages);l(n,34,0,"false",u.rootPage)},function(l,n){l(n,10,0,m._11(n,11)._sbPadding);l(n,19,0,m._11(n,20).statusbarPadding,m._11(n,20)._hasRefresher)})}function t(l){return m._19(0,[(l()(),m.Z(0,0,null,null,30,"ion-content",[["padding",""],["style","background-color: #831013;"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(1,4374528,null,0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(3,0,null,1,26,"div",[["style","\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    height: 100%;\n  "]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(5,0,null,null,3,"div",[["style","flex: 1; align-self: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(7,0,null,null,0,"img",[["src","./assets/imgs/diseno.png"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(10,0,null,null,6,"div",[["style","flex: 1; color: white; align-self: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(12,0,null,null,3,"h4",[["style","text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["LIBRETA "])),(l()(),m.Z(14,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),m._18(-1,null,[" J SEC TAN"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(18,0,null,null,4,"div",[["style","flex: 1; color: white; align-self: center; padding-left: 10%; padding-right: 10%;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(20,0,null,null,1,"P",[["style","text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ipsum sed mauris imperdiet, id\n        suscipit velit porta. Phasellus sodales in mauris ut malesuada. Pellentesque tincidunt bibendum lorem, eu\n        iaculis nulla facilisis fermentum. Suspendisse fringilla dictum fermentum. Aliquam nec felis ullamcorper,\n        vehicula sem sit amet, congue metus. Nunc semper erat sem, nec consequat arcu efficitur id. Maecenas eget est\n        porttitor, vulputate enim et, vestibulum leo. Sed dignissim sagittis finibus. Nunc consequat rhoncus nisl, eu\n        consectetur est semper eget.\n      "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(24,0,null,null,4,"div",[["style","\n      flex: 1; \n      align-self: center; \n      width: 100%; \n      text-align: center;\n    "]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(26,0,null,null,1,"button",[["id","procedimientoCombate"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.goToProcedimientosCombate()&&e}return e},null,null)),(l()(),m._18(-1,null,["\n\n        Procedimiento de Combate\n\n      "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m._18(-1,1,["\n\n"]))],null,function(l,n){l(n,0,0,m._11(n,1).statusbarPadding,m._11(n,1)._hasRefresher)})}function i(l){return m._19(0,[(l()(),m.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,$.a,[L.a,m.j,m.z,[2,K.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,hl.b,hl.a)),m.Y(4,49152,null,0,al.a,[Q.a,[2,K.a],[2,ol.a],L.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==m._11(l,8).toggle()&&e}return e},vl.b,vl.a)),m.Y(7,1097728,[[1,4]],0,Zl.a,[[8,""],L.a,m.j,m.z],null,null),m.Y(8,1064960,null,0,yl.a,[X.a,[2,K.a],[2,Zl.a],[2,al.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(9,16384,null,1,Yl.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(13,147456,null,0,kl.a,[L.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(16,0,null,3,2,"ion-title",[],null,null,null,ul.b,ul.a)),m.Y(17,49152,null,0,el.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),(l()(),m._18(-1,0,["Procedimiento para el movimiento"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(22,0,null,null,27,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(23,4374528,null,0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(25,0,null,1,23,"div",[["style","display: flex; flex-flow: column; text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(27,0,null,null,9,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(29,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Formaciones"])),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(32,0,null,null,3,"video",[["class","videoPlayer"],["controls","controls"],["poster","./assets/imgs/diseno.png"],["preload","metadata"],["webkit-playsinline","webkit-playsinline"],["width","100%"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n        "])),(l()(),m.Z(34,0,null,null,0,"source",[["src","./assets/imgs/video3.mp4"],["type","video/mp4"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(38,0,null,null,9,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(40,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Tec(s) Mov"])),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(43,0,null,null,3,"video",[["class","videoPlayer"],["controls","controls"],["preload","metadata"],["webkit-playsinline","webkit-playsinline"],["width","100%"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n        "])),(l()(),m.Z(45,0,null,null,0,"source",[["src","./assets/imgs/video4.mp4"],["type","video/mp4"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m._18(-1,1,["\n\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,m._11(n,4)._hidden,m._11(n,4)._sbPadding);l(n,6,0,m._11(n,8).isHidden);l(n,12,0,m._11(n,13)._hidden);l(n,22,0,m._11(n,23).statusbarPadding,m._11(n,23)._hasRefresher)})}function o(l){return m._19(0,[(l()(),m.Z(0,0,null,null,33,"ion-item",[["class","item item-block"],["lines","none"],["style","background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"]],null,null,null,D.b,D.a)),m.Y(1,1097728,null,3,R.a,[F.a,L.a,m.j,m.z,[2,I.a]],null,null),m._16(335544320,4,{contentLabel:0}),m._16(603979776,5,{_buttons:1}),m._16(603979776,6,{_icons:1}),m.Y(5,16384,null,0,M.a,[],null,null),(l()(),m._18(-1,2,["\n\n          "])),(l()(),m.Z(7,0,null,2,25,"ion-card",[],null,null,null,null,null)),m.Y(8,16384,null,0,xl.a,[L.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n\n            "])),(l()(),m.Z(10,0,null,null,21,"ion-card-content",[["style","padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;"]],null,null,null,null,null)),m.Y(11,16384,null,0,wl.a,[L.a,m.j,m.z],null,null),(l()(),m._18(-1,null,["\n\n              "])),(l()(),m.Z(13,0,null,null,17,"div",[["style","\n                display: flex;\n                flex-wrap:nowrap; \n                height: 100px;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n                "])),(l()(),m.Z(15,0,null,null,3,"div",[["style","\n                flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n                  "])),(l()(),m.Z(17,0,null,null,0,"img",[["src","./assets/imgs/logo.png"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.goVideo("./assets/imgs/video3.mp4")&&e}return e},null,null)),(l()(),m._18(-1,null,["\n\n                "])),(l()(),m._18(-1,null,["\n\n                "])),(l()(),m.Z(20,0,null,null,9,"div",[["style","\n                flex: 1;\n                word-wrap: break-word;\n                overflow-wrap: break-word;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n                  "])),(l()(),m.Z(22,0,null,null,1,"h4",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Video Nro"])),(l()(),m._18(-1,null,["\n                  "])),(l()(),m.Z(25,0,null,null,0,"br",[],null,null,null,null,null)),(l()(),m._18(-1,null,["\n                  "])),(l()(),m.Z(27,0,null,null,1,"div",[["style","width: 200px;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ipsum sed mauris\n                    imperdiet, id\n                    suscipit velit porta.\n                  "])),(l()(),m._18(-1,null,["\n                "])),(l()(),m._18(-1,null,["\n\n              "])),(l()(),m._18(-1,null,["\n\n            "])),(l()(),m._18(-1,null,["\n\n          "])),(l()(),m._18(-1,2,["\n\n        "]))],null,null)}function s(l){return m._19(0,[m._16(402653184,1,{slider:0}),m._16(402653184,2,{segments:0}),(l()(),m.Z(2,0,null,null,67,"ion-header",[],null,null,null,null,null)),m.Y(3,16384,null,0,$.a,[L.a,m.j,m.z,[2,K.a]],null,null),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m.Z(5,0,null,null,31,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,hl.b,hl.a)),m.Y(6,49152,null,0,al.a,[Q.a,[2,K.a],[2,ol.a],L.a,m.j,m.z],{color:[0,"color"]},null),(l()(),m._18(-1,3,["\n\n    "])),(l()(),m.Z(8,0,null,3,27,"div",[["style","display: flex;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(10,0,null,null,8,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n        "])),(l()(),m.Z(12,0,null,null,5,"button",[["ion-button",""],["style","background-color: transparent;"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.goToHome()&&e}return e},vl.b,vl.a)),m.Y(13,1097728,null,0,Zl.a,[[8,""],L.a,m.j,m.z],null,null),(l()(),m._18(-1,0,["\n          "])),(l()(),m.Z(15,0,null,0,1,"ion-icon",[["name","arrow-back"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(16,147456,null,0,kl.a,[L.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n        "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(20,0,null,null,4,"div",[["style","flex: 1; text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n        "])),(l()(),m.Z(22,0,null,null,1,"h5",[["style","\n            min-width: 240px;\n            color: white;\n          "]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n          Procedimientos de combate\n        "])),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(26,0,null,null,8,"div",[["style","flex: 1; text-align: right;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n        "])),(l()(),m.Z(28,0,null,null,5,"button",[["ion-button",""],["style","background-color: transparent;"]],null,null,null,vl.b,vl.a)),m.Y(29,1097728,null,0,Zl.a,[[8,""],L.a,m.j,m.z],null,null),(l()(),m._18(-1,0,["\n          "])),(l()(),m.Z(31,0,null,0,1,"ion-icon",[["name","arrow-forward"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(32,147456,null,0,kl.a,[L.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n        "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m._18(-1,3,["\n\n  "])),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m.Z(38,0,null,null,30,"ion-toolbar",[["class","toolbar"],["color","primary"],["mode","md"],["style","padding-top: 10px !important; padding-bottom: 10px !important;"]],[[2,"statusbar-padding",null]],null,null,ll.b,ll.a)),m.Y(39,49152,null,0,nl.a,[L.a,m.j,m.z],{color:[0,"color"],mode:[1,"mode"]},null),(l()(),m._18(-1,3,["\n\n    "])),(l()(),m.Z(41,0,[[2,0],["segments",1]],3,26,"ion-segment",[["color","light"],["mode","md"]],[[2,"ng-untouched",null],[2,"ng-touched",null],[2,"ng-pristine",null],[2,"ng-dirty",null],[2,"ng-valid",null],[2,"ng-invalid",null],[2,"ng-pending",null],[2,"segment-disabled",null]],[[null,"ngModelChange"]],function(l,n,u){var e=!0;if("ngModelChange"===n){e=!1!==(l.component.page=u)&&e}return e},null,null)),m.Y(42,671744,null,0,Pl.h,[[8,null],[8,null],[8,null],[8,null]],{model:[0,"model"]},{update:"ngModelChange"}),m._14(2048,null,Pl.f,null,[Pl.h]),m.Y(44,16384,null,0,Pl.g,[Pl.f],null,null),m.Y(45,1196032,null,1,Cl.a,[L.a,m.j,m.z,[2,Pl.f]],{color:[0,"color"],mode:[1,"mode"]},null),m._16(603979776,3,{_buttons:1}),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(48,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","0"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var e=!0,a=l.component;if("click"===n){e=!1!==m._11(l,49).onClick()&&e}if("click"===n){e=!1!==a.selectedTab(0)&&e}return e},Tl.b,Tl.a)),m.Y(49,114688,[[3,4]],0,Ol.a,[],{value:[0,"value"]},null),(l()(),m._18(-1,0,["\n        Proteccion\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(52,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","1"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var e=!0,a=l.component;if("click"===n){e=!1!==m._11(l,53).onClick()&&e}if("click"===n){e=!1!==a.selectedTab(1)&&e}return e},Tl.b,Tl.a)),m.Y(53,114688,[[3,4]],0,Ol.a,[],{value:[0,"value"]},null),(l()(),m._18(-1,0,["\n        Movimientos\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(56,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","2"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var e=!0,a=l.component;if("click"===n){e=!1!==m._11(l,57).onClick()&&e}if("click"===n){e=!1!==a.selectedTab(2)&&e}return e},Tl.b,Tl.a)),m.Y(57,114688,[[3,4]],0,Ol.a,[],{value:[0,"value"]},null),(l()(),m._18(-1,0,["\n        Ofensivos\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(60,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","3"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var e=!0,a=l.component;if("click"===n){e=!1!==m._11(l,61).onClick()&&e}if("click"===n){e=!1!==a.selectedTab(3)&&e}return e},Tl.b,Tl.a)),m.Y(61,114688,[[3,4]],0,Ol.a,[],{value:[0,"value"]},null),(l()(),m._18(-1,0,["\n        Defensivos\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(64,0,null,null,2,"ion-segment-button",[["class","segment-button"],["role","button"],["tappable",""],["value","4"]],[[2,"segment-button-disabled",null],[2,"segment-activated",null],[1,"aria-pressed",0]],[[null,"click"]],function(l,n,u){var e=!0,a=l.component;if("click"===n){e=!1!==m._11(l,65).onClick()&&e}if("click"===n){e=!1!==a.selectedTab(4)&&e}return e},Tl.b,Tl.a)),m.Y(65,114688,[[3,4]],0,Ol.a,[],{value:[0,"value"]},null),(l()(),m._18(-1,0,["\n        Otros\n      "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m._18(-1,3,["\n\n  "])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(71,0,null,null,47,"ion-content",[["style","background-color: rgb(210, 217, 226);"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(72,4374528,null,0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(74,0,null,1,0,"video",[["controls",""],["hidden",""],["id","player"]],null,null,null,null,null)),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(76,0,null,1,41,"ion-slides",[],null,[[null,"ionSlideDidChange"]],function(l,n,u){var e=!0;if("ionSlideDidChange"===n){e=!1!==l.component.slideChanged()&&e}return e},El.b,El.a)),m.Y(77,1228800,[[1,4],["slider",4]],0,Sl.a,[L.a,U.a,m.u,[2,K.a],m.j,m.z],null,{ionSlideDidChange:"ionSlideDidChange"}),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m.Z(79,0,null,0,9,"ion-slide",[],null,null,null,Vl.b,Vl.a)),m.Y(80,180224,null,0,Al.a,[m.j,m.z,Sl.a],null,null),(l()(),m._18(-1,0,["\n\n      "])),(l()(),m.Z(82,0,null,0,5,"ion-list",[["lines","none"]],null,null,null,null,null)),m.Y(83,16384,null,0,sl.a,[L.a,m.j,m.z,U.a,G.l,J.a],null,null),(l()(),m._18(-1,null,["\n\n        "])),(l()(),m.U(16777216,null,null,1,null,o)),m.Y(86,802816,null,0,rl.h,[m.I,m.F,m.p],{ngForOf:[0,"ngForOf"]},null),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m.Z(90,0,null,0,5,"ion-slide",[],null,null,null,Vl.b,Vl.a)),m.Y(91,180224,null,0,Al.a,[m.j,m.z,Sl.a],null,null),(l()(),m._18(-1,0,["\n\n      "])),(l()(),m.Z(93,0,null,0,1,"h1",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Tab 2"])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m.Z(97,0,null,0,5,"ion-slide",[],null,null,null,Vl.b,Vl.a)),m.Y(98,180224,null,0,Al.a,[m.j,m.z,Sl.a],null,null),(l()(),m._18(-1,0,["\n\n      "])),(l()(),m.Z(100,0,null,0,1,"h1",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Tab 3"])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m.Z(104,0,null,0,5,"ion-slide",[],null,null,null,Vl.b,Vl.a)),m.Y(105,180224,null,0,Al.a,[m.j,m.z,Sl.a],null,null),(l()(),m._18(-1,0,["\n\n      "])),(l()(),m.Z(107,0,null,0,1,"h1",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Tab 4"])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m.Z(111,0,null,0,5,"ion-slide",[],null,null,null,Vl.b,Vl.a)),m.Y(112,180224,null,0,Al.a,[m.j,m.z,Sl.a],null,null),(l()(),m._18(-1,0,["\n\n      "])),(l()(),m.Z(114,0,null,0,1,"h1",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Tab 5"])),(l()(),m._18(-1,0,["\n\n    "])),(l()(),m._18(-1,0,["\n\n  "])),(l()(),m._18(-1,1,["\n\n"]))],function(l,n){var u=n.component;l(n,6,0,"primary");l(n,16,0,"arrow-back");l(n,32,0,"arrow-forward");l(n,39,0,"primary","md");l(n,42,0,u.page);l(n,45,0,"light","md");l(n,49,0,"0");l(n,53,0,"1");l(n,57,0,"2");l(n,61,0,"3");l(n,65,0,"4");l(n,86,0," ".repeat(4).split(""))},function(l,n){l(n,5,0,m._11(n,6)._hidden,m._11(n,6)._sbPadding);l(n,15,0,m._11(n,16)._hidden);l(n,31,0,m._11(n,32)._hidden);l(n,38,0,m._11(n,39)._sbPadding);l(n,41,0,m._11(n,44).ngClassUntouched,m._11(n,44).ngClassTouched,m._11(n,44).ngClassPristine,m._11(n,44).ngClassDirty,m._11(n,44).ngClassValid,m._11(n,44).ngClassInvalid,m._11(n,44).ngClassPending,m._11(n,45)._disabled);l(n,48,0,m._11(n,49)._disabled,m._11(n,49).isActive,m._11(n,49).isActive);l(n,52,0,m._11(n,53)._disabled,m._11(n,53).isActive,m._11(n,53).isActive);l(n,56,0,m._11(n,57)._disabled,m._11(n,57).isActive,m._11(n,57).isActive);l(n,60,0,m._11(n,61)._disabled,m._11(n,61).isActive,m._11(n,61).isActive);l(n,64,0,m._11(n,65)._disabled,m._11(n,65).isActive,m._11(n,65).isActive);l(n,71,0,m._11(n,72).statusbarPadding,m._11(n,72)._hasRefresher)})}function r(l){return m._19(0,[(l()(),m.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,$.a,[L.a,m.j,m.z,[2,K.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,hl.b,hl.a)),m.Y(4,49152,null,0,al.a,[Q.a,[2,K.a],[2,ol.a],L.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==m._11(l,8).toggle()&&e}return e},vl.b,vl.a)),m.Y(7,1097728,[[1,4]],0,Zl.a,[[8,""],L.a,m.j,m.z],null,null),m.Y(8,1064960,null,0,yl.a,[X.a,[2,K.a],[2,Zl.a],[2,al.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(9,16384,null,1,Yl.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(13,147456,null,0,kl.a,[L.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(16,0,null,3,2,"ion-title",[],null,null,null,ul.b,ul.a)),m.Y(17,49152,null,0,el.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),(l()(),m._18(-1,0,["Procedimientos Ofensivos"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(22,0,null,null,17,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(23,4374528,null,0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(25,0,null,1,13,"div",[["style","display: flex; flex-flow: column; text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(27,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(29,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Sec no detectada por el Eno"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(33,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(35,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Sec detectada por el Eno"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m._18(-1,1,["\n\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,m._11(n,4)._hidden,m._11(n,4)._sbPadding);l(n,6,0,m._11(n,8).isHidden);l(n,12,0,m._11(n,13)._hidden);l(n,22,0,m._11(n,23).statusbarPadding,m._11(n,23)._hasRefresher)})}function _(l){return m._19(0,[(l()(),m.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,$.a,[L.a,m.j,m.z,[2,K.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,hl.b,hl.a)),m.Y(4,49152,null,0,al.a,[Q.a,[2,K.a],[2,ol.a],L.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==m._11(l,8).toggle()&&e}return e},vl.b,vl.a)),m.Y(7,1097728,[[1,4]],0,Zl.a,[[8,""],L.a,m.j,m.z],null,null),m.Y(8,1064960,null,0,yl.a,[X.a,[2,K.a],[2,Zl.a],[2,al.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(9,16384,null,1,Yl.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(13,147456,null,0,kl.a,[L.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(16,0,null,3,2,"ion-title",[],null,null,null,ul.b,ul.a)),m.Y(17,49152,null,0,el.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),(l()(),m._18(-1,0,["Procedimientos Defensivos"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(22,0,null,null,17,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(23,4374528,null,0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(25,0,null,1,13,"div",[["style","display: flex; flex-flow: column; text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(27,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(29,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Defensa desde Pos Lig(s)"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(33,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(35,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Defensa desde Pos Org(s)"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m._18(-1,1,["\n\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,m._11(n,4)._hidden,m._11(n,4)._sbPadding);l(n,6,0,m._11(n,8).isHidden);l(n,12,0,m._11(n,13)._hidden);l(n,22,0,m._11(n,23).statusbarPadding,m._11(n,23)._hasRefresher)})}function c(l){return m._19(0,[(l()(),m.Z(0,0,null,null,20,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,$.a,[L.a,m.j,m.z,[2,K.a]],null,null),(l()(),m._18(-1,null,["\n  "])),(l()(),m.Z(3,0,null,null,16,"ion-navbar",[["class","toolbar"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,hl.b,hl.a)),m.Y(4,49152,null,0,al.a,[Q.a,[2,K.a],[2,ol.a],L.a,m.j,m.z],null,null),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(6,0,null,0,8,"button",[["ion-button",""],["menuToggle",""]],[[8,"hidden",0]],[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==m._11(l,8).toggle()&&e}return e},vl.b,vl.a)),m.Y(7,1097728,[[1,4]],0,Zl.a,[[8,""],L.a,m.j,m.z],null,null),m.Y(8,1064960,null,0,yl.a,[X.a,[2,K.a],[2,Zl.a],[2,al.a]],{menuToggle:[0,"menuToggle"]},null),m.Y(9,16384,null,1,Yl.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),m._16(603979776,1,{_buttons:1}),(l()(),m._18(-1,0,["\n      "])),(l()(),m.Z(12,0,null,0,1,"ion-icon",[["name","menu"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(13,147456,null,0,kl.a,[L.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n    "])),(l()(),m._18(-1,3,["\n    "])),(l()(),m.Z(16,0,null,3,2,"ion-title",[],null,null,null,ul.b,ul.a)),m.Y(17,49152,null,0,el.a,[L.a,m.j,m.z,[2,nl.a],[2,al.a]],null,null),(l()(),m._18(-1,0,["Otros Procedimientos"])),(l()(),m._18(-1,3,["\n  "])),(l()(),m._18(-1,null,["\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(22,0,null,null,47,"ion-content",[],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(23,4374528,null,0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(25,0,null,1,43,"div",[["style","display: flex; flex-flow: column; text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(27,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(29,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Observación"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(33,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(35,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Expl por el Fgo"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(39,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(41,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Franqueo de Obst (Prot x Fgo)"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(45,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(47,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Franqueo de Obst Nat(s)"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(51,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(53,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Ocup Z Reun"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(57,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(59,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Ab L Distr"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m.Z(63,0,null,null,4,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n      "])),(l()(),m.Z(65,0,null,null,1,"h3",[],null,null,null,null,null)),(l()(),m._18(-1,null,["Dist de Unidad"])),(l()(),m._18(-1,null,["\n    "])),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m._18(-1,1,["\n\n"]))],function(l,n){l(n,8,0,"");l(n,13,0,"menu")},function(l,n){l(n,3,0,m._11(n,4)._hidden,m._11(n,4)._sbPadding);l(n,6,0,m._11(n,8).isHidden);l(n,12,0,m._11(n,13)._hidden);l(n,22,0,m._11(n,23).statusbarPadding,m._11(n,23)._hasRefresher)})}function d(l){return m._19(0,[(l()(),m.Z(0,0,null,null,28,"ion-header",[],null,null,null,null,null)),m.Y(1,16384,null,0,$.a,[L.a,m.j,m.z,[2,K.a]],null,null),(l()(),m._18(-1,null,["\n\n  "])),(l()(),m.Z(3,0,null,null,24,"ion-navbar",[["class","toolbar"],["color","primary"]],[[8,"hidden",0],[2,"statusbar-padding",null]],null,null,hl.b,hl.a)),m.Y(4,49152,null,0,al.a,[Q.a,[2,K.a],[2,ol.a],L.a,m.j,m.z],{color:[0,"color"]},null),(l()(),m._18(-1,3,["\n\n    "])),(l()(),m.Z(6,0,null,3,20,"div",[["style","display: flex;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(8,0,null,null,8,"div",[["style","flex: 1;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n        "])),(l()(),m.Z(10,0,null,null,5,"button",[["ion-button",""],["style","background-color: transparent;"]],null,[[null,"click"]],function(l,n,u){var e=!0;if("click"===n){e=!1!==l.component.goToVideos()&&e}return e},vl.b,vl.a)),m.Y(11,1097728,null,0,Zl.a,[[8,""],L.a,m.j,m.z],null,null),(l()(),m._18(-1,0,["\n          "])),(l()(),m.Z(13,0,null,0,1,"ion-icon",[["name","arrow-back"],["role","img"]],[[2,"hide",null]],null,null,null,null)),m.Y(14,147456,null,0,kl.a,[L.a,m.j,m.z],{name:[0,"name"]},null),(l()(),m._18(-1,0,["\n        "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(18,0,null,null,4,"div",[["style","flex: 1; text-align: center;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n        "])),(l()(),m.Z(20,0,null,null,1,"h5",[["style","\n            min-width: 240px;\n            color: white;\n          "]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n          Video\n        "])),(l()(),m._18(-1,null,["\n      "])),(l()(),m._18(-1,null,["\n\n      "])),(l()(),m.Z(24,0,null,null,1,"div",[["style","flex: 1; text-align: right;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n\n\n\n      "])),(l()(),m._18(-1,null,["\n\n    "])),(l()(),m._18(-1,3,["\n\n  "])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m._18(-1,null,["\n\n"])),(l()(),m.Z(30,0,null,null,7,"ion-content",[["style","background-color: rgb(210, 217, 226);"]],[[2,"statusbar-padding",null],[2,"has-refresher",null]],null,null,tl.b,tl.a)),m.Y(31,4374528,null,0,il.a,[L.a,U.a,J.a,m.j,m.z,Q.a,W.a,m.u,[2,K.a],[2,ol.a]],null,null),(l()(),m._18(-1,1,["\n\n  "])),(l()(),m.Z(33,0,null,1,3,"video",[["controls",""],["id","player"],["style","width: 100%; height: 100%;"]],null,null,null,null,null)),(l()(),m._18(-1,null,["\n    "])),(l()(),m.Z(35,0,null,null,0,"source",[["type","video/mp4"]],[[8,"src",4]],null,null,null,null)),(l()(),m._18(-1,null,["\n  "])),(l()(),m._18(-1,1,["\n\n"]))],function(l,n){l(n,4,0,"primary");l(n,14,0,"arrow-back")},function(l,n){var u=n.component;l(n,3,0,m._11(n,4)._hidden,m._11(n,4)._sbPadding);l(n,13,0,m._11(n,14)._hidden);l(n,30,0,m._11(n,31).statusbarPadding,m._11(n,31)._hasRefresher);l(n,35,0,m._2(1,"",u.value,""))})}Object.defineProperty(n,"__esModule",{value:!0});var g=u(39),m=u(0),p=(u(5),u(53),u(81)),f=u(82),b=function(){function l(l,n){this.navCtrl=l,this.navParams=n,this.value=n.get("videoUrl")}return l.prototype.goToVideos=function(){this.navCtrl.setRoot(h)},l}(),h=function(){function l(l){this.navCtrl=l}return l.prototype.goVideo=function(l){this.navCtrl.setRoot(b,{videoUrl:l})},l.prototype.goToHome=function(){this.navCtrl.setRoot(v)},l.prototype.ionViewDidEnter=function(){this.slideChanged()},l.prototype.selectedTab=function(l){this.slider.slideTo(l)},l.prototype.slideChanged=function(){var l=this.slider.getActiveIndex(),n=this.segments.nativeElement.childElementCount;this.page=l.toString(),this.page>=n&&(this.page=(n-1).toString()),console.log("slides_count",n),console.log("this.page",this.page),this.centerScroll()},l.prototype.centerScroll=function(){if(this.segments&&this.segments.nativeElement){var l=this.sizeLeft(),n=this.segments.nativeElement.children[this.page].clientWidth,u=l-window.innerWidth/2+n/2;this.smoothScrollTo(u=u>0?u:0)}},l.prototype.sizeLeft=function(){for(var l=0,n=0;n<this.page;n++)l+=this.segments.nativeElement.children[n].clientWidth;return l},l.prototype.easeInOutQuart=function(l,n,u,e){return(l/=e/2)<1?u/2*l*l*l*l+n:-u/2*((l-=2)*l*l*l-2)+n},l.prototype.smoothScrollTo=function(l){var n=this,u=(new Date).getTime(),e=this.segments.nativeElement.scrollLeft,a=l-e,t=setInterval(function(){var l=(new Date).getTime()-u,i=n.easeInOutQuart(l,e,a,400);l>=400&&clearInterval(t),n.segments.nativeElement.scrollLeft=i},1e3/60)},l}(),v=function(){function l(l){this.navCtrl=l}return l.prototype.goToProcedimientosCombate=function(){this.navCtrl.setRoot(h)},l}(),Z=function(){return function(){}}(),y=function(){return function(){}}(),Y=function(){return function(){}}(),k=function(){return function(){}}(),j=function(){function l(l,n,u){this.platform=l,this.statusBar=n,this.splashScreen=u,this.rootPage=v,this.initializeApp(),this.pages=[{title:"Inicio",component:v},{title:"Protección",component:h},{title:"Movimiento",component:Z},{title:"Ofensivos",component:y},{title:"Defensivos",component:Y},{title:"Otros",component:k}]}return l.prototype.initializeApp=function(){var l=this;this.platform.ready().then(function(){l.statusBar.styleDefault(),l.splashScreen.hide()})},l.prototype.openPage=function(l){this.nav.setRoot(l.component)},l}(),z=function(){return function(){}}(),x=u(54),w=u(221),P=u(222),C=u(223),T=u(224),O=u(225),E=u(226),S=u(227),V=u(228),A=u(229),D=u(123),R=u(20),F=u(16),L=u(1),I=u(42),M=u(59),q=u(101),X=u(21),B=u(230),H=u(36),N=u(73),U=u(3),W=u(17),G=u(8),J=u(7),Q=u(6),$=u(30),K=u(4),ll=u(187),nl=u(26),ul=u(63),el=u(37),al=u(24),tl=u(38),il=u(14),ol=u(11),sl=u(46),rl=u(12),_l=u(231),cl=u(60),dl=u(33),gl=u(19),ml=m.X({encapsulation:2,styles:[],data:{}}),pl=m.V("ng-component",j,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"ng-component",[],null,null,null,a,ml)),m.Y(1,49152,null,0,j,[U.a,p.a,f.a],null,null)],null,null)},{},{},[]),fl=m.X({encapsulation:2,styles:[],data:{}}),bl=m.V("page-home",v,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-home",[],null,null,null,t,fl)),m.Y(1,49152,null,0,v,[ol.a],null,null)],null,null)},{},{},[]),hl=u(51),vl=u(27),Zl=u(13),yl=u(47),Yl=u(50),kl=u(25),jl=m.X({encapsulation:2,styles:[],data:{}}),zl=m.V("page-list",Z,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-list",[],null,null,null,i,jl)),m.Y(1,49152,null,0,Z,[],null,null)],null,null)},{},{},[]),xl=u(94),wl=u(95),Pl=u(23),Cl=u(110),Tl=u(232),Ol=u(62),El=u(233),Sl=u(49),Vl=u(234),Al=u(78),Dl=m.X({encapsulation:2,styles:[],data:{}}),Rl=m.V("page-list",h,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-list",[],null,null,null,s,Dl)),m.Y(1,49152,null,0,h,[ol.a],null,null)],null,null)},{},{},[]),Fl=m.X({encapsulation:2,styles:[],data:{}}),Ll=m.V("page-list",y,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-list",[],null,null,null,r,Fl)),m.Y(1,49152,null,0,y,[],null,null)],null,null)},{},{},[]),Il=m.X({encapsulation:2,styles:[],data:{}}),Ml=m.V("page-list",Y,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-list",[],null,null,null,_,Il)),m.Y(1,49152,null,0,Y,[],null,null)],null,null)},{},{},[]),ql=m.X({encapsulation:2,styles:[],data:{}}),Xl=m.V("page-list",k,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"page-list",[],null,null,null,c,ql)),m.Y(1,49152,null,0,k,[],null,null)],null,null)},{},{},[]),Bl=u(10),Hl=m.X({encapsulation:2,styles:[],data:{}}),Nl=m.V("ng-component",b,function(l){return m._19(0,[(l()(),m.Z(0,0,null,null,1,"ng-component",[],null,null,null,d,Hl)),m.Y(1,49152,null,0,b,[ol.a,Bl.a],null,null)],null,null)},{},{},[]),Ul=u(122),Wl=u(91),Gl=u(93),Jl=u(119),Ql=u(35),$l=u(100),Kl=u(184),ln=u(56),nn=u(48),un=u(103),en=u(68),an=u(108),tn=u(118),on=u(114),sn=u(183),rn=u(120),_n=u(102),cn=u(121),dn=m.W(z,[x.b],function(l){return m._7([m._8(512,m.i,m.S,[[8,[w.a,P.a,C.a,T.a,O.a,E.a,S.a,V.a,A.a,pl,bl,zl,Rl,Ll,Ml,Xl,Nl]],[3,m.i],m.s]),m._8(5120,m.r,m._15,[[3,m.r]]),m._8(4608,rl.k,rl.j,[m.r,[2,rl.s]]),m._8(5120,m.b,m._1,[]),m._8(5120,m.p,m._9,[]),m._8(5120,m.q,m._12,[]),m._8(4608,g.c,g.q,[rl.c]),m._8(6144,m.D,null,[g.c]),m._8(4608,g.f,Ul.a,[]),m._8(5120,g.d,function(l,n,u,e,a){return[new g.k(l,n),new g.o(u),new g.n(e,a)]},[rl.c,m.u,rl.c,rl.c,g.f]),m._8(4608,g.e,g.e,[g.d,m.u]),m._8(135680,g.m,g.m,[rl.c]),m._8(4608,g.l,g.l,[g.e,g.m]),m._8(6144,m.B,null,[g.l]),m._8(6144,g.p,null,[g.m]),m._8(4608,m.G,m.G,[m.u]),m._8(4608,g.h,g.h,[rl.c]),m._8(4608,g.i,g.i,[rl.c]),m._8(4608,Pl.k,Pl.k,[]),m._8(4608,Pl.c,Pl.c,[]),m._8(4608,Wl.a,Wl.a,[Q.a,L.a]),m._8(4608,Gl.a,Gl.a,[Q.a,L.a]),m._8(4608,Jl.a,Jl.a,[]),m._8(4608,F.a,F.a,[]),m._8(4608,Ql.a,Ql.a,[U.a]),m._8(4608,W.a,W.a,[L.a,U.a,m.u,J.a]),m._8(4608,$l.a,$l.a,[Q.a,L.a]),m._8(5120,rl.f,Kl.b,[rl.q,[2,rl.a],L.a]),m._8(4608,rl.e,rl.e,[rl.f]),m._8(5120,ln.b,ln.d,[Q.a,ln.a]),m._8(5120,gl.a,gl.b,[Q.a,ln.b,rl.e,nn.b,m.i]),m._8(4608,un.a,un.a,[Q.a,L.a,gl.a]),m._8(4608,en.a,en.a,[Q.a,L.a]),m._8(4608,an.a,an.a,[Q.a,L.a,gl.a]),m._8(4608,tn.a,tn.a,[L.a,U.a,J.a,Q.a,G.l]),m._8(4608,on.a,on.a,[Q.a,L.a]),m._8(4608,dl.a,dl.a,[U.a,L.a]),m._8(4608,p.a,p.a,[]),m._8(4608,f.a,f.a,[]),m._8(512,rl.b,rl.b,[]),m._8(512,m.k,sn.a,[]),m._8(256,L.b,{},[]),m._8(1024,rn.a,rn.b,[]),m._8(1024,U.a,U.b,[g.b,rn.a,m.u]),m._8(1024,L.a,L.c,[L.b,U.a]),m._8(512,J.a,J.a,[U.a]),m._8(512,X.a,X.a,[]),m._8(512,Q.a,Q.a,[L.a,U.a,[2,X.a]]),m._8(512,G.l,G.l,[Q.a]),m._8(256,ln.a,{links:[]},[]),m._8(512,m.h,m.h,[]),m._8(512,_n.a,_n.a,[m.h]),m._8(1024,nn.b,nn.c,[_n.a,m.o]),m._8(1024,m.c,function(l,n,u,e,a,t,i,o,s,r,_,c,d){return[g.s(l),cn.a(n),Jl.b(u,e),tn.b(a,t,i,o,s),nn.d(r,_,c,d)]},[[2,m.t],L.a,U.a,J.a,L.a,U.a,J.a,Q.a,G.l,L.a,ln.a,nn.b,m.u]),m._8(512,m.d,m.d,[[2,m.c]]),m._8(131584,m.f,m.f,[m.u,m.T,m.o,m.k,m.i,m.d]),m._8(512,m.e,m.e,[m.f]),m._8(512,g.a,g.a,[[3,g.a]]),m._8(512,Pl.j,Pl.j,[]),m._8(512,Pl.d,Pl.d,[]),m._8(512,Pl.i,Pl.i,[]),m._8(512,Kl.a,Kl.a,[]),m._8(512,z,z,[]),m._8(256,x.a,j,[]),m._8(256,rl.a,"/",[])])});Object(m.M)(),Object(g.j)().bootstrapModuleFactory(dn)}},[188]);
+webpackJsonp([0],{
+
+/***/ 100:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return HomePage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__proteccion_proteccion__ = __webpack_require__(50);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var HomePage = /** @class */ (function () {
+    function HomePage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    HomePage.prototype.goToProcedimientosCombate = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__proteccion_proteccion__["a" /* ProteccionPage */]);
+    };
+    HomePage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-home',template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\home\home.html"*/'<ion-content padding style="background-color: #831013;">\n\n  <div style="\n    display: flex;\n    flex-direction: column;\n    justify-content: center;\n    height: 100%;\n  ">\n\n    <div style="flex: 1; align-self: center;">\n      <img src="./assets/imgs/diseno.png">\n    </div>\n\n    <div style="flex: 1; color: white; align-self: center;">\n      <h4 style="text-align: center;">LIBRETA <br> J SEC TAN</h4>\n    </div>\n\n    <div style="flex: 1; color: white; align-self: center; padding-left: 10%; padding-right: 10%;">\n      <P style="text-align: center;">\n        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus efficitur ipsum sed mauris imperdiet, id\n        suscipit velit porta. Phasellus sodales in mauris ut malesuada. Pellentesque tincidunt bibendum lorem, eu\n        iaculis nulla facilisis fermentum. Suspendisse fringilla dictum fermentum. Aliquam nec felis ullamcorper,\n        vehicula sem sit amet, congue metus. Nunc semper erat sem, nec consequat arcu efficitur id. Maecenas eget est\n        porttitor, vulputate enim et, vestibulum leo. Sed dignissim sagittis finibus. Nunc consequat rhoncus nisl, eu\n        consectetur est semper eget.\n      </P>\n    </div>\n\n    <div style="\n      flex: 1; \n      align-self: center; \n      width: 100%; \n      text-align: center;\n    ">\n\n      <button id="procedimientoCombate" (click)="goToProcedimientosCombate()">\n\n        Procedimiento de Combate\n\n      </button>\n\n    </div>\n\n  </div>\n\n</ion-content>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\home\home.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+    ], HomePage);
+    return HomePage;
+}());
+
+//# sourceMappingURL=home.js.map
+
+/***/ }),
+
+/***/ 110:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 110;
+
+/***/ }),
+
+/***/ 151:
+/***/ (function(module, exports) {
+
+function webpackEmptyAsyncContext(req) {
+	// Here Promise.resolve().then() is used instead of new Promise() to prevent
+	// uncatched exception popping up in devtools
+	return Promise.resolve().then(function() {
+		throw new Error("Cannot find module '" + req + "'.");
+	});
+}
+webpackEmptyAsyncContext.keys = function() { return []; };
+webpackEmptyAsyncContext.resolve = webpackEmptyAsyncContext;
+module.exports = webpackEmptyAsyncContext;
+webpackEmptyAsyncContext.id = 151;
+
+/***/ }),
+
+/***/ 195:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return VideoPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__proteccion_proteccion__ = __webpack_require__(50);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+var VideoPage = /** @class */ (function () {
+    function VideoPage(navCtrl, navParams) {
+        this.navCtrl = navCtrl;
+        this.navParams = navParams;
+        this.value = navParams.get('videoUrl');
+    }
+    VideoPage.prototype.goToVideos = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__proteccion_proteccion__["a" /* ProteccionPage */]);
+    };
+    VideoPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\video\video.html"*/'<ion-header>\n\n\n\n  <ion-navbar color="primary">\n\n\n\n    <div style="display: flex;">\n\n\n\n      <div style="flex: 1;">\n\n\n\n        <button ion-button style="background-color: transparent;" (click)="goToVideos()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n\n\n      </div>\n\n\n\n      <div style="flex: 1; text-align: center;">\n\n        <h5 style="\n\n            min-width: 240px;\n\n            color: white;\n\n          ">\n\n          Video\n\n        </h5>\n\n      </div>\n\n\n\n      <div style="flex: 1; text-align: right;">\n\n\n\n\n\n\n\n      </div>\n\n\n\n    </div>\n\n\n\n  </ion-navbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content style="background-color: rgb(210, 217, 226);">\n\n\n\n  <video id="player" style="width: 100%; height: 100%;" controls>\n\n    <source src="{{value}}" type="video/mp4" />\n\n  </video>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\video\video.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* NavParams */]])
+    ], VideoPage);
+    return VideoPage;
+}());
+
+//# sourceMappingURL=video.js.map
+
+/***/ }),
+
+/***/ 196:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MovimientosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var MovimientosPage = /** @class */ (function () {
+    function MovimientosPage() {
+    }
+    MovimientosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\movimientos\movimientos.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Procedimiento para el movimiento</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div style="display: flex; flex-flow: column; text-align: center;">\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Formaciones</h3>\n\n      <video width="100%" controls="controls" poster="./assets/imgs/diseno.png" preload="metadata" webkit-playsinline="webkit-playsinline"\n\n        class="videoPlayer">\n\n        <source src="./assets/imgs/video3.mp4" type="video/mp4" />\n\n      </video>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Tec(s) Mov</h3>\n\n      <video width="100%" controls="controls" preload="metadata" webkit-playsinline="webkit-playsinline"\n\n        class="videoPlayer">\n\n        <source src="./assets/imgs/video4.mp4" type="video/mp4" />\n\n      </video>\n\n    </div>\n\n\n\n  </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\movimientos\movimientos.html"*/
+        })
+    ], MovimientosPage);
+    return MovimientosPage;
+}());
+
+//# sourceMappingURL=movimientos.js.map
+
+/***/ }),
+
+/***/ 197:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OfensivosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var OfensivosPage = /** @class */ (function () {
+    function OfensivosPage() {
+    }
+    OfensivosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\ofensivos\ofensivos.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Procedimientos Ofensivos</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div style="display: flex; flex-flow: column; text-align: center;">\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Sec no detectada por el Eno</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Sec detectada por el Eno</h3>\n\n    </div>\n\n\n\n  </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\ofensivos\ofensivos.html"*/
+        })
+    ], OfensivosPage);
+    return OfensivosPage;
+}());
+
+//# sourceMappingURL=ofensivos.js.map
+
+/***/ }),
+
+/***/ 198:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return DefensivosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var DefensivosPage = /** @class */ (function () {
+    function DefensivosPage() {
+    }
+    DefensivosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\defensivos\defensivos.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Procedimientos Defensivos</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div style="display: flex; flex-flow: column; text-align: center;">\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Defensa desde Pos Lig(s)</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Defensa desde Pos Org(s)</h3>\n\n    </div>\n\n\n\n  </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\defensivos\defensivos.html"*/
+        })
+    ], DefensivosPage);
+    return DefensivosPage;
+}());
+
+//# sourceMappingURL=defensivos.js.map
+
+/***/ }),
+
+/***/ 199:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return OtrosPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+var OtrosPage = /** @class */ (function () {
+    function OtrosPage() {
+    }
+    OtrosPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\otros\otros.html"*/'<ion-header>\n\n  <ion-navbar>\n\n    <button ion-button menuToggle>\n\n      <ion-icon name="menu"></ion-icon>\n\n    </button>\n\n    <ion-title>Otros Procedimientos</ion-title>\n\n  </ion-navbar>\n\n</ion-header>\n\n\n\n<ion-content>\n\n\n\n  <div style="display: flex; flex-flow: column; text-align: center;">\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Observación</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Expl por el Fgo</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Franqueo de Obst (Prot x Fgo)</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Franqueo de Obst Nat(s)</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Ocup Z Reun</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Ab L Distr</h3>\n\n    </div>\n\n\n\n    <div style="flex: 1;">\n\n      <h3>Dist de Unidad</h3>\n\n    </div>\n\n\n\n  </div>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\otros\otros.html"*/
+        })
+    ], OtrosPage);
+    return OtrosPage;
+}());
+
+//# sourceMappingURL=otros.js.map
+
+/***/ }),
+
+/***/ 200:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__ = __webpack_require__(201);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__app_module__ = __webpack_require__(223);
+
+
+Object(__WEBPACK_IMPORTED_MODULE_0__angular_platform_browser_dynamic__["a" /* platformBrowserDynamic */])().bootstrapModule(__WEBPACK_IMPORTED_MODULE_1__app_module__["a" /* AppModule */]);
+//# sourceMappingURL=main.js.map
+
+/***/ }),
+
+/***/ 223:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return AppModule; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__ = __webpack_require__(30);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__app_component__ = __webpack_require__(266);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_movimientos_movimientos__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_ofensivos_ofensivos__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_defensivos_defensivos__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_otros_otros__ = __webpack_require__(199);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_proteccion_proteccion__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_10__pages_video_video__ = __webpack_require__(195);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__ = __webpack_require__(194);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+
+
+
+
+
+
+
+
+
+
+
+
+
+var AppModule = /** @class */ (function () {
+    function AppModule() {
+    }
+    AppModule = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_1__angular_core__["I" /* NgModule */])({
+            declarations: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_movimientos_movimientos__["a" /* MovimientosPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_proteccion_proteccion__["a" /* ProteccionPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_ofensivos_ofensivos__["a" /* OfensivosPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_defensivos_defensivos__["a" /* DefensivosPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_otros_otros__["a" /* OtrosPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_video_video__["a" /* VideoPage */]
+            ],
+            imports: [
+                __WEBPACK_IMPORTED_MODULE_0__angular_platform_browser__["a" /* BrowserModule */],
+                __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["c" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */], {}, {
+                    links: []
+                }),
+            ],
+            bootstrap: [__WEBPACK_IMPORTED_MODULE_2_ionic_angular__["a" /* IonicApp */]],
+            entryComponents: [
+                __WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* MyApp */],
+                __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */],
+                __WEBPACK_IMPORTED_MODULE_5__pages_movimientos_movimientos__["a" /* MovimientosPage */],
+                __WEBPACK_IMPORTED_MODULE_9__pages_proteccion_proteccion__["a" /* ProteccionPage */],
+                __WEBPACK_IMPORTED_MODULE_6__pages_ofensivos_ofensivos__["a" /* OfensivosPage */],
+                __WEBPACK_IMPORTED_MODULE_7__pages_defensivos_defensivos__["a" /* DefensivosPage */],
+                __WEBPACK_IMPORTED_MODULE_8__pages_otros_otros__["a" /* OtrosPage */],
+                __WEBPACK_IMPORTED_MODULE_10__pages_video_video__["a" /* VideoPage */]
+            ],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_11__ionic_native_status_bar__["a" /* StatusBar */],
+                __WEBPACK_IMPORTED_MODULE_12__ionic_native_splash_screen__["a" /* SplashScreen */],
+                { provide: __WEBPACK_IMPORTED_MODULE_1__angular_core__["u" /* ErrorHandler */], useClass: __WEBPACK_IMPORTED_MODULE_2_ionic_angular__["b" /* IonicErrorHandler */] }
+            ]
+        })
+    ], AppModule);
+    return AppModule;
+}());
+
+//# sourceMappingURL=app.module.js.map
+
+/***/ }),
+
+/***/ 266:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return MyApp; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__ = __webpack_require__(191);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__ = __webpack_require__(194);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_4__pages_home_home__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_5__pages_proteccion_proteccion__ = __webpack_require__(50);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_6__pages_movimientos_movimientos__ = __webpack_require__(196);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_7__pages_ofensivos_ofensivos__ = __webpack_require__(197);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_8__pages_defensivos_defensivos__ = __webpack_require__(198);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_9__pages_otros_otros__ = __webpack_require__(199);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+
+
+
+
+
+
+var MyApp = /** @class */ (function () {
+    function MyApp(platform, statusBar, splashScreen) {
+        this.platform = platform;
+        this.statusBar = statusBar;
+        this.splashScreen = splashScreen;
+        this.rootPage = __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */];
+        this.initializeApp();
+        // used for an example of ngFor and navigation
+        this.pages = [
+            { title: 'Inicio', component: __WEBPACK_IMPORTED_MODULE_4__pages_home_home__["a" /* HomePage */] },
+            { title: 'Protección', component: __WEBPACK_IMPORTED_MODULE_5__pages_proteccion_proteccion__["a" /* ProteccionPage */] },
+            { title: 'Movimiento', component: __WEBPACK_IMPORTED_MODULE_6__pages_movimientos_movimientos__["a" /* MovimientosPage */] },
+            { title: 'Ofensivos', component: __WEBPACK_IMPORTED_MODULE_7__pages_ofensivos_ofensivos__["a" /* OfensivosPage */] },
+            { title: 'Defensivos', component: __WEBPACK_IMPORTED_MODULE_8__pages_defensivos_defensivos__["a" /* DefensivosPage */] },
+            { title: 'Otros', component: __WEBPACK_IMPORTED_MODULE_9__pages_otros_otros__["a" /* OtrosPage */] }
+        ];
+    }
+    MyApp.prototype.initializeApp = function () {
+        var _this = this;
+        this.platform.ready().then(function () {
+            // Okay, so the platform is ready and our plugins are available.
+            // Here you can do any higher level native things you might need.
+            _this.statusBar.styleDefault();
+            _this.splashScreen.hide();
+        });
+    };
+    MyApp.prototype.openPage = function (page) {
+        // Reset the content nav to have just this page
+        // we wouldn't want the back button to show in this scenario
+        this.nav.setRoot(page.component);
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])(__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */]),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["d" /* Nav */])
+    ], MyApp.prototype, "nav", void 0);
+    MyApp = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\app\app.html"*/'<ion-menu [content]="content" type="overlay">\n  <ion-header>\n    <ion-toolbar>\n      <ion-title>Procedimientos de Combate</ion-title>\n    </ion-toolbar>\n  </ion-header>\n\n  <ion-content>\n    <ion-list>\n      <button menuClose ion-item *ngFor="let p of pages" (click)="openPage(p)">\n        {{p.title}}\n      </button>\n    </ion-list>\n  </ion-content>\n\n</ion-menu>\n\n<!-- Disable swipe-to-go-back because it\'s poor UX to combine STGB with side menus -->\n<ion-nav [root]="rootPage" #content swipeBackEnabled="false"></ion-nav>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\app\app.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["g" /* Platform */], __WEBPACK_IMPORTED_MODULE_2__ionic_native_status_bar__["a" /* StatusBar */], __WEBPACK_IMPORTED_MODULE_3__ionic_native_splash_screen__["a" /* SplashScreen */]])
+    ], MyApp);
+    return MyApp;
+}());
+
+//# sourceMappingURL=app.component.js.map
+
+/***/ }),
+
+/***/ 50:
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "a", function() { return ProteccionPage; });
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(33);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__home_home__ = __webpack_require__(100);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3__video_video__ = __webpack_require__(195);
+var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
+    var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
+    if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
+    else for (var i = decorators.length - 1; i >= 0; i--) if (d = decorators[i]) r = (c < 3 ? d(r) : c > 3 ? d(target, key, r) : d(target, key)) || r;
+    return c > 3 && r && Object.defineProperty(target, key, r), r;
+};
+var __metadata = (this && this.__metadata) || function (k, v) {
+    if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
+};
+
+
+
+
+var ProteccionPage = /** @class */ (function () {
+    function ProteccionPage(navCtrl) {
+        this.navCtrl = navCtrl;
+    }
+    ProteccionPage.prototype.goVideo = function (videoUrl) {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_3__video_video__["a" /* VideoPage */], {
+            videoUrl: videoUrl
+        });
+    };
+    ProteccionPage.prototype.goToHome = function () {
+        this.navCtrl.setRoot(__WEBPACK_IMPORTED_MODULE_2__home_home__["a" /* HomePage */]);
+    };
+    // Initialize slider
+    ProteccionPage.prototype.ionViewDidEnter = function () {
+        this.slideChanged();
+    };
+    // On segment click
+    ProteccionPage.prototype.selectedTab = function (index) {
+        this.slider.slideTo(index);
+    };
+    // On slide changed
+    ProteccionPage.prototype.slideChanged = function () {
+        var currentIndex = this.slider.getActiveIndex();
+        var slides_count = this.segments.nativeElement.childElementCount;
+        this.page = currentIndex.toString();
+        if (this.page >= slides_count)
+            this.page = (slides_count - 1).toString();
+        this.centerScroll();
+    };
+    // Center current scroll
+    ProteccionPage.prototype.centerScroll = function () {
+        if (!this.segments || !this.segments.nativeElement)
+            return;
+        var sizeLeft = this.sizeLeft();
+        var sizeCurrent = this.segments.nativeElement.children[this.page].clientWidth;
+        var result = sizeLeft - (window.innerWidth / 2) + (sizeCurrent / 2);
+        result = (result > 0) ? result : 0;
+        this.smoothScrollTo(result);
+    };
+    ProteccionPage.prototype.isInViewport = function (element) {
+        var rect = element.getBoundingClientRect();
+        return (rect.top >= 0 &&
+            rect.left >= 0 &&
+            rect.bottom <= (window.innerHeight || document.documentElement.clientHeight) &&
+            rect.right <= (window.innerWidth || document.documentElement.clientWidth));
+    };
+    // Get size start to current
+    ProteccionPage.prototype.sizeLeft = function () {
+        var size = 0;
+        for (var i = 0; i < this.page; i++) {
+            size += this.segments.nativeElement.children[i].clientWidth;
+        }
+        return size;
+    };
+    // Easing function
+    ProteccionPage.prototype.easeInOutQuart = function (time, from, distance, duration) {
+        if ((time /= duration / 2) < 1)
+            return distance / 2 * time * time * time * time + from;
+        return -distance / 2 * ((time -= 2) * time * time * time - 2) + from;
+    };
+    // Animate scroll
+    ProteccionPage.prototype.smoothScrollTo = function (endX) {
+        var _this = this;
+        console.log(endX);
+        var startTime = new Date().getTime();
+        var startX = this.segments.nativeElement.scrollLeft;
+        var distanceX = endX - startX;
+        var duration = 400;
+        var timer = setInterval(function () {
+            var time = new Date().getTime() - startTime;
+            var newX = _this.easeInOutQuart(time, startX, distanceX, duration);
+            if (time >= duration) {
+                clearInterval(timer);
+            }
+            _this.segments.nativeElement.scrollLeft = newX;
+            //console.log(this.isInViewport(this.segments.nativeElement.children[0]), this.page);
+        }, 1000 / 60); // 60 fps
+    };
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])('slider'),
+        __metadata("design:type", __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* Slides */])
+    ], ProteccionPage.prototype, "slider", void 0);
+    __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["_8" /* ViewChild */])("segments"),
+        __metadata("design:type", Object)
+    ], ProteccionPage.prototype, "segments", void 0);
+    ProteccionPage = __decorate([
+        Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
+            selector: 'page-list',template:/*ion-inline-start:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\proteccion\proteccion.html"*/'<ion-header>\n\n\n\n  <ion-navbar color="primary">\n\n\n\n    <div style="display: flex;">\n\n\n\n      <div style="flex: 1;">\n\n\n\n        <button ion-button style="background-color: transparent;" (click)="goToHome()">\n\n          <ion-icon name="arrow-back"></ion-icon>\n\n        </button>\n\n\n\n      </div>\n\n\n\n      <div style="flex: 1; text-align: center;">\n\n        <h5 style="\n\n            min-width: 240px;\n\n            color: white;\n\n          ">\n\n          Procedimientos de combate\n\n        </h5>\n\n      </div>\n\n\n\n      <div style="flex: 1; text-align: right;">\n\n\n\n        <button ion-button style="background-color: transparent;">\n\n          <ion-icon name="arrow-forward"></ion-icon>\n\n        </button>\n\n\n\n      </div>\n\n\n\n    </div>\n\n\n\n  </ion-navbar>\n\n\n\n  <ion-toolbar style="padding-top: 10px !important; padding-bottom: 10px !important;" mode="md" color="primary">\n\n\n\n    <ion-segment #segments mode="md" [(ngModel)]="page" color="light">\n\n\n\n      <ion-segment-button value="0" (click)="selectedTab(0)">\n\n        Proteccion\n\n      </ion-segment-button>\n\n\n\n      <ion-segment-button value="1" (click)="selectedTab(1)">\n\n        Movimientos\n\n      </ion-segment-button>\n\n\n\n      <ion-segment-button value="2" (click)="selectedTab(2)">\n\n        Ofensivos\n\n      </ion-segment-button>\n\n\n\n      <ion-segment-button value="3" (click)="selectedTab(3)">\n\n        Defensivos\n\n      </ion-segment-button>\n\n\n\n      <ion-segment-button value="4" (click)="selectedTab(4)">\n\n        Otros\n\n      </ion-segment-button>\n\n\n\n    </ion-segment>\n\n\n\n  </ion-toolbar>\n\n\n\n</ion-header>\n\n\n\n<ion-content style="background-color: rgb(210, 217, 226);">\n\n\n\n  <video id="player" hidden controls></video>\n\n\n\n  <ion-slides #slider (ionSlideDidChange)="slideChanged()">\n\n\n\n    <ion-slide>\n\n\n\n      <ion-list lines="none">\n\n\n\n        <ion-item lines="none"\n\n          style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"\n\n          *ngFor="let dummy of \' \'.repeat(5).split(\'\'), let i = index">\n\n\n\n          <ion-card>\n\n\n\n            <ion-card-content\n\n              style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">\n\n\n\n              <div style="\n\n                height: 100%;\n\n                padding: 0;\n\n                margin: 0;\n\n                display: -webkit-box;\n\n                display: -moz-box;\n\n                display: -ms-flexbox;\n\n                display: -webkit-flex;\n\n                display: flex;\n\n                align-items: center;\n\n                justify-content: center;">\n\n\n\n                <div style="\n\n                  flex: 1; \n\n                  text-align: center;">\n\n\n\n                  <div style="\n\n                      background-color: rgb(110, 1, 7);\n\n                      border-radius: 13%;\n\n                      margin: 11%;">\n\n\n\n                    <img style="display: inline;" src="./assets/imgs/videoButton.jpg"\n\n                      (click)="goVideo(\'./assets/imgs/video3.mp4\');" />\n\n\n\n                  </div>\n\n\n\n                </div>\n\n\n\n                <div style="\n\n                  flex: 3; \n\n                  text-align: left;">\n\n\n\n                  <h2 style="\n\n                    Color: rgb(110, 1, 7);">\n\n                    Video {{i + 1}}\n\n                  </h2>\n\n\n\n                  <p style="white-space: pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n\n\n\n                </div>\n\n\n\n              </div>\n\n\n\n            </ion-card-content>\n\n\n\n          </ion-card>\n\n\n\n        </ion-item>\n\n\n\n      </ion-list>\n\n\n\n    </ion-slide>\n\n\n\n    <ion-slide>\n\n\n\n      <ion-list lines="none">\n\n\n\n        <ion-item lines="none"\n\n          style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"\n\n          *ngFor="let dummy of \' \'.repeat(2).split(\'\'), let i = index">\n\n\n\n          <ion-card>\n\n\n\n            <ion-card-content\n\n              style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">\n\n\n\n              <div style="\n\n                height: 100%;\n\n                padding: 0;\n\n                margin: 0;\n\n                display: -webkit-box;\n\n                display: -moz-box;\n\n                display: -ms-flexbox;\n\n                display: -webkit-flex;\n\n                display: flex;\n\n                align-items: center;\n\n                justify-content: center;">\n\n\n\n                <div style="\n\n                  flex: 1; \n\n                  text-align: center;">\n\n\n\n                  <div style="\n\n                      background-color: rgb(110, 1, 7);\n\n                      border-radius: 13%;\n\n                      margin: 11%;">\n\n\n\n                    <img style="display: inline;" src="./assets/imgs/videoButton.jpg"\n\n                      (click)="goVideo(\'./assets/imgs/video2.mp4\');" />\n\n\n\n                  </div>\n\n\n\n                </div>\n\n\n\n                <div style="\n\n                  flex: 3; \n\n                  text-align: left;">\n\n\n\n                  <h2 style="\n\n                    Color: rgb(110, 1, 7);">\n\n                    Video {{i + 1}}\n\n                  </h2>\n\n\n\n                  <p style="white-space: pre-wrap;">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>\n\n\n\n                </div>\n\n\n\n              </div>\n\n\n\n            </ion-card-content>\n\n\n\n          </ion-card>\n\n\n\n        </ion-item>\n\n\n\n      </ion-list>\n\n\n\n    </ion-slide>\n\n\n\n    <ion-slide>\n\n\n\n      <h1>Tab 3</h1>\n\n\n\n    </ion-slide>\n\n\n\n    <ion-slide>\n\n\n\n      <h1>Tab 4</h1>\n\n\n\n    </ion-slide>\n\n\n\n    <ion-slide>\n\n\n\n      <h1>Tab 5</h1>\n\n\n\n    </ion-slide>\n\n\n\n  </ion-slides>\n\n\n\n</ion-content>'/*ion-inline-end:"C:\Users\Mati\Documents\Proyectos\Cideso\react-web\manual-web-mobile\src\pages\proteccion\proteccion.html"*/
+        }),
+        __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["e" /* NavController */]])
+    ], ProteccionPage);
+    return ProteccionPage;
+}());
+
+//# sourceMappingURL=proteccion.js.map
+
+/***/ })
+
+},[200]);
+//# sourceMappingURL=main.js.map
