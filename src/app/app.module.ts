@@ -4,11 +4,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
-import { MovimientosPage } from '../pages/movimientos/movimientos';
-import { OfensivosPage } from '../pages/ofensivos/ofensivos';
-import { DefensivosPage } from '../pages/defensivos/defensivos';
-import { OtrosPage } from '../pages/otros/otros';
-import { ProteccionPage } from '../pages/proteccion/proteccion';
+import { ProcedimientosCombatePage } from '../pages/procedimientosCombate/procedimientosCombate';
 import { VideoPage } from '../pages/video/video';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -18,11 +14,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   declarations: [
     MyApp,
     HomePage,
-    MovimientosPage,
-    ProteccionPage,
-    OfensivosPage,
-    DefensivosPage,
-    OtrosPage,
+    ProcedimientosCombatePage,
     VideoPage
   ],
   imports: [
@@ -33,17 +25,13 @@ import { SplashScreen } from '@ionic-native/splash-screen';
   entryComponents: [
     MyApp,
     HomePage,
-    MovimientosPage,
-    ProteccionPage,
-    OfensivosPage,
-    DefensivosPage,
-    OtrosPage,
+    ProcedimientosCombatePage,
     VideoPage
   ],
   providers: [
     StatusBar,
     SplashScreen,
-    {provide: ErrorHandler, useClass: IonicErrorHandler}
+    { provide: ErrorHandler, useClass: IonicErrorHandler }
   ]
 })
-export class AppModule {}
+export class AppModule { }

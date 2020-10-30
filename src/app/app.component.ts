@@ -2,13 +2,10 @@ import { Component, ViewChild } from '@angular/core';
 import { Nav, Platform } from 'ionic-angular';
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
+import { App } from 'ionic-angular/components/app/app';
 
 import { HomePage } from '../pages/home/home';
-import { ProteccionPage } from '../pages/proteccion/proteccion';
-import { MovimientosPage } from '../pages/movimientos/movimientos';
-import { OfensivosPage } from '../pages/ofensivos/ofensivos';
-import { DefensivosPage } from '../pages/defensivos/defensivos';
-import { OtrosPage } from '../pages/otros/otros';
+import { ProcedimientosCombatePage } from '../pages/procedimientosCombate/procedimientosCombate';
 
 @Component({
   templateUrl: 'app.html'
@@ -16,21 +13,18 @@ import { OtrosPage } from '../pages/otros/otros';
 export class MyApp {
   @ViewChild(Nav) nav: Nav;
 
-  rootPage: any = HomePage;
+  rootPage: any = HomePage; 
 
-  pages: Array<{title: string, component: any}>;
+  pages: Array<{ title: string, component: any }>;
 
   constructor(public platform: Platform, public statusBar: StatusBar, public splashScreen: SplashScreen) {
+
     this.initializeApp();
 
     // used for an example of ngFor and navigation
     this.pages = [
       { title: 'Inicio', component: HomePage },
-      { title: 'Protección', component: ProteccionPage},
-      { title: 'Movimiento', component: MovimientosPage },
-      { title: 'Ofensivos', component: OfensivosPage },
-      { title: 'Defensivos', component: DefensivosPage },
-      { title: 'Otros', component: OtrosPage }
+      { title: 'ProcedimientosCombate', component: ProcedimientosCombatePage }
     ];
 
   }

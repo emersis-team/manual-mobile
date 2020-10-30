@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
 
-import { ProteccionPage } from '../proteccion/proteccion';
+import { ProcedimientosCombatePage } from '../procedimientosCombate/procedimientosCombate';
 
 @Component({
   selector: 'page-home',
@@ -14,7 +14,7 @@ export class HomePage {
   }
 
   goToProcedimientosCombate() {
-    this.navCtrl.setRoot(ProteccionPage);
+    this.navCtrl.setRoot(ProcedimientosCombatePage);
   }
 
 }

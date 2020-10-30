@@ -1,23 +1,26 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-
-import { ProteccionPage } from '../proteccion/proteccion';
+import { ProcedimientosCombatePage } from '../procedimientosCombate/procedimientosCombate';
 
 @Component({
     templateUrl: 'video.html'
 })
 export class VideoPage {
 
-    value: string;
+    videoTitle: string;
+    videoUrl: string;
 
-    constructor(public navCtrl: NavController, public navParams: NavParams) {
+    constructor(
+        public navCtrl: NavController, 
+        public navParams: NavParams) {
 
-        this.value = navParams.get('videoUrl');
+        this.videoTitle = navParams.get('videoTitle');
+        this.videoUrl = navParams.get('videoUrl');
 
     }
 
     goToVideos() {
-        this.navCtrl.setRoot(ProteccionPage);
+        //this.navCtrl.setRoot(ProcedimientosCombatePage);
     }
 
 }

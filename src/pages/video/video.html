@@ -4,26 +4,16 @@
 
     <div style="display: flex;">
 
-      <div style="flex: 1;">
-
-        <button ion-button style="background-color: transparent;" (click)="goToVideos()">
-          <ion-icon name="arrow-back"></ion-icon>
-        </button>
-
-      </div>
-
       <div style="flex: 1; text-align: center;">
-        <h5 style="
+        <h6 style="
             min-width: 240px;
             color: white;
           ">
-          Video
-        </h5>
+          {{videoTitle}}
+        </h6>
       </div>
 
       <div style="flex: 1; text-align: right;">
-
-
 
       </div>
 
@@ -36,7 +26,7 @@
 <ion-content style="background-color: rgb(210, 217, 226);">
 
   <video id="player" style="width: 100%; height: 100%;" controls>
-    <source src="{{value}}" type="video/mp4" />
+    <source src="{{videoUrl}}" type="video/mp4" />
   </video>
 
 </ion-content>
