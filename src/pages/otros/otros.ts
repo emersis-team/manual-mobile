@@ -84,7 +84,6 @@ export class OtrosPage {
             return;
 
         let sizeLeft = this.sizeLeft();
-        let middleWindow = window.innerWidth / 2;
 
         let sizeCurrent = this.segments.nativeElement.children[this.page].clientWidth;
         let result = sizeLeft - (window.innerWidth / 2) + (sizeCurrent / 2);
