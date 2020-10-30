@@ -1,0 +1,190 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+
+    <div style="display: flex;">
+
+      <div style="flex: 1;">
+
+        <button ion-button style="background-color: transparent; box-shadow: none;" (click)="goToProcedimientosCombate()">
+          <ion-icon name="arrow-back"></ion-icon>
+        </button>
+
+      </div>
+
+      <div style="flex: 1; text-align: center;">
+        <h6 style="
+            min-width: 240px;
+            color: white;
+          ">
+          Otros
+        </h6>
+      </div>
+
+      <div style="flex: 1; text-align: right;">
+
+      </div>
+
+    </div>
+
+  </ion-navbar>
+
+  <ion-toolbar style="padding-top: 10px !important; padding-bottom: 10px !important;" mode="md" color="primary">
+
+    <ion-segment #segments mode="md" [(ngModel)]="page" color="light">
+
+      <ion-segment-button value="0" (click)="selectedTab(0)">
+        Otros 1
+      </ion-segment-button>
+
+      <ion-segment-button value="1" (click)="selectedTab(1)">
+        Otros 2
+      </ion-segment-button>
+
+    </ion-segment>
+
+  </ion-toolbar>
+
+</ion-header>
+
+<ion-content style="background-color: rgb(210, 217, 226);">
+
+  <ion-slides #slider (ionSlideDidChange)="slideChanged()">
+    
+    <!-- OTROS 1 -->
+    <ion-slide>
+
+      <ion-list lines="none">
+
+        <ion-item lines="none"
+          style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
+          *ngFor="let otros1Item of otros1Items, let otros1ItemIterNumber = index">
+
+          <ion-card>
+
+            <ion-card-content
+              style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
+
+              <div style="
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;">
+
+                <div style="
+                  flex: 1; 
+                  text-align: center;">
+
+                  <div style="
+                      background-color: rgb(110, 1, 7);
+                      border-radius: 13%;
+                      margin: 11%;">
+
+                    <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
+                      (click)="goVideo(otros1Item.title, otros1Item.src);" />
+
+                  </div>
+
+                </div>
+
+                <div style="
+                  flex: 3; 
+                  text-align: left;">
+
+                  <h2 style="
+                    Color: rgb(110, 1, 7);">
+                    {{otros1Item.title}}
+                  </h2>
+
+                  <p style="white-space: pre-wrap;">{{otros1Item.description}}</p>
+
+                </div>
+
+              </div>
+
+            </ion-card-content>
+
+          </ion-card>
+
+        </ion-item>
+
+      </ion-list>
+
+    </ion-slide>
+
+    <!-- OTROS 2 -->
+    <ion-slide>
+
+      <ion-list lines="none">
+
+        <ion-item lines="none"
+          style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
+          *ngFor="let otros2Item of otros2Items, let otros2ItemIterNumber = index">
+
+          <ion-card>
+
+            <ion-card-content
+              style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
+
+              <div style="
+                height: 100%;
+                padding: 0;
+                margin: 0;
+                display: -webkit-box;
+                display: -moz-box;
+                display: -ms-flexbox;
+                display: -webkit-flex;
+                display: flex;
+                align-items: center;
+                justify-content: center;">
+
+                <div style="
+                  flex: 1; 
+                  text-align: center;">
+
+                  <div style="
+                      background-color: rgb(110, 1, 7);
+                      border-radius: 13%;
+                      margin: 11%;">
+
+                    <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
+                      (click)="goVideo(otros2Item.title, otros2Item.src);" />
+
+                  </div>
+
+                </div>
+
+                <div style="
+                  flex: 3; 
+                  text-align: left;">
+
+                  <h2 style="
+                    Color: rgb(110, 1, 7);">
+                    {{otros2Item.title}}
+                  </h2>
+
+                  <p style="white-space: pre-wrap;">{{otros2Item.description}}</p>
+
+                </div>
+
+              </div>
+
+            </ion-card-content>
+
+          </ion-card>
+
+        </ion-item>
+
+      </ion-list>
+
+    </ion-slide>
+
+  </ion-slides>
+
+</ion-content>

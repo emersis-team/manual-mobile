@@ -5,6 +5,7 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ProcedimientosCombatePage } from '../pages/procedimientosCombate/procedimientosCombate';
+import { OtrosPage } from '../pages/otros/otros';
 import { VideoPage } from '../pages/video/video';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -15,6 +16,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ProcedimientosCombatePage,
+    OtrosPage,
     VideoPage
   ],
   imports: [
@@ -26,6 +28,7 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ProcedimientosCombatePage,
+    OtrosPage,
     VideoPage
   ],
   providers: [

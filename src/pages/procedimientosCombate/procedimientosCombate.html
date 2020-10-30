@@ -23,7 +23,7 @@
 
       <div style="flex: 1; text-align: right;">
 
-        <button ion-button style="background-color: transparent; box-shadow: none;">
+        <button ion-button style="background-color: transparent; box-shadow: none;" (click)="goToOtros()">
           <ion-icon name="arrow-forward"></ion-icon>
         </button>
 
@@ -64,8 +64,6 @@
 </ion-header>
 
 <ion-content style="background-color: rgb(210, 217, 226);">
-
-  <video id="player" hidden controls></video>
 
   <ion-slides #slider (ionSlideDidChange)="slideChanged()">
 
