@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { NavController, NavParams } from 'ionic-angular';
-import { ProcedimientosCombatePage } from '../procedimientosCombate/procedimientosCombate';
 
 @Component({
     templateUrl: 'video.html'
@@ -17,10 +16,6 @@ export class VideoPage {
         this.videoTitle = navParams.get('videoTitle');
         this.videoUrl = navParams.get('videoUrl');
 
-    }
-
-    goToVideos() {
-        //this.navCtrl.setRoot(ProcedimientosCombatePage);
     }
 
 }
