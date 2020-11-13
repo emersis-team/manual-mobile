@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Slides } from 'ionic-angular';
-import { OtrosPage } from '../otros/otros'; 
+import { OtrosPage } from '../otros/otros';
 import { HomePage } from '../home/home';
 import { VideoPage } from '../video/video';
 
@@ -14,11 +14,11 @@ export class ProcedimientosCombatePage {
     @ViewChild("segments") segments: { nativeElement: { childElementCount: any; children: { clientWidth: number; }[]; scrollLeft: any; }; };
     page: any;
 
-    public proteccionItems: { title: string; description: string; src: string; }[];
-    public movimientosItems: { title: string; description: string; src: string; }[];;
-    public ofensivosItems: { title: string; description: string; src: string; }[];;
-    public defensivosItems: { title: string; description: string; src: string; }[];;
-    public otrosItems: { title: string; description: string; src: string; }[];;
+    public proteccionItems: { title: string; description: string; src: string; enabled: boolean }[];
+    public movimientosItems: { title: string; description: string; src: string; enabled: boolean }[];;
+    public ofensivosItems: { title: string; description: string; src: string; enabled: boolean }[];;
+    public defensivosItems: { title: string; description: string; src: string; enabled: boolean }[];;
+    public otrosItems: { title: string; description: string; src: string; enabled: boolean }[];;
 
     constructor(
         public navCtrl: NavController) {
@@ -28,50 +28,50 @@ export class ProcedimientosCombatePage {
     ionViewDidLoad(): void {
 
         this.proteccionItems = [
-            { title: 'Contra misiles Atan', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Contra Fgo A', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Contra Atq Ae aviones', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Contra Atq Ae helicópteros', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Contra minas', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Contra Obs y Vig', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Tipos de posiciones', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' }
+            { title: 'Contra misiles Atan', description: '', src: './assets/imgs/contraAtan.mp4', enabled: true },
+            { title: 'Contra Fgo A', description: '', src: '', enabled: false },
+            { title: 'Contra Atq Ae aviones', description: '', src: '', enabled: false },
+            { title: 'Contra Atq Ae helicópteros', description: '', src: '', enabled: false },
+            { title: 'Contra minas', description: '', src: '', enabled: false },
+            { title: 'Contra Obs y Vig', description: '', src: '', enabled: false },
+            { title: 'Tipos de posiciones', description: '', src: '', enabled: false }
         ];
 
         this.movimientosItems = [
-            { title: 'Formaciones', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Tec(s) Mov', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' }
+            { title: 'Formaciones', description: '', src: './assets/imgs/formaciones.mp4', enabled: true },
+            { title: 'Tec(s) Mov', description: '', src: '', enabled: false }
         ];
 
         this.ofensivosItems = [
-            { title: 'Sec no detectada por el Eno', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Sec detectada por el Eno', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' }
+            { title: 'Sec no detectada por el Eno', description: '', src: '', enabled: false },
+            { title: 'Sec detectada por el Eno', description: '', src: '', enabled: false }
         ];
 
         this.defensivosItems = [
-            { title: 'Defensa desde Pos Lig(s)', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Defensa desde Pos Org(s)', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' }
+            { title: 'Defensa desde Pos Lig(s)', description: '', src: '', enabled: false },
+            { title: 'Defensa desde Pos Org(s)', description: '', src: '', enabled: false }
         ];
 
         this.otrosItems = [
-            { title: 'Observación', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Expl por el Fgo', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Franqueo de Obst (Prot x Fgo)', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Franqueo de Obst Nat(s)', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Ocup Z Reun', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Ab L Distr', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' },
-            { title: 'Distr de Unidad', description: 'Lorem ipsum.', src: './assets/imgs/video3.mp4' }
+            { title: 'Observación', description: '', src: '', enabled: false },
+            { title: 'Expl por el Fgo', description: '', src: '', enabled: false },
+            { title: 'Franqueo de Obst (Prot x Fgo)', description: '', src: '', enabled: false },
+            { title: 'Franqueo de Obst Nat(s)', description: '', src: '', enabled: false },
+            { title: 'Ocup Z Reun', description: '', src: '', enabled: false },
+            { title: 'Ab L Distr', description: '', src: '', enabled: false },
+            { title: 'Distr de Unidad', description: '', src: '', enabled: false }
         ];
 
     }
 
     goVideo(
-        videoTitle: string,
-        videoUrl: string) {
+        proteccionItem: { title: string; description: string; src: string; enabled: boolean }) {
 
-        this.navCtrl.push(VideoPage, {
-            videoTitle: videoTitle,
-            videoUrl: videoUrl
-        });
+        if (proteccionItem.enabled)
+            this.navCtrl.push(VideoPage, {
+                videoTitle: proteccionItem.title,
+                videoUrl: proteccionItem.src
+            });
 
     }
 

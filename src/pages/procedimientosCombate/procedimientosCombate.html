@@ -76,7 +76,7 @@
           style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
           *ngFor="let proteccionItem of proteccionItems, let proteccionItemIterNumber = index">
 
-          <ion-card>
+          <ion-card [style.opacity]="proteccionItem.enabled ? 1 : 0.6">
 
             <ion-card-content
               style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
@@ -103,7 +103,7 @@
                       margin: 11%;">
 
                     <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
-                      (click)="goVideo(proteccionItem.title, proteccionItem.src);" />
+                      (click)="goVideo(proteccionItem);" />
 
                   </div>
 
@@ -143,7 +143,7 @@
           style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
           *ngFor="let movimientosItem of movimientosItems, let movimientosItemIterNumber = index">
 
-          <ion-card>
+          <ion-card [style.opacity]="movimientosItem.enabled ? 1 : 0.6">
 
             <ion-card-content
               style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
@@ -170,7 +170,7 @@
                       margin: 11%;">
 
                     <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
-                      (click)="goVideo(movimientosItem.title, movimientosItem.src);" />
+                      (click)="goVideo(movimientosItem);" />
 
                   </div>
 
@@ -210,7 +210,7 @@
           style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
           *ngFor="let ofensivosItem of ofensivosItems, let ofensivosItemsIterNumber = index">
 
-          <ion-card>
+          <ion-card [style.opacity]="ofensivosItem.enabled ? 1 : 0.6">
 
             <ion-card-content
               style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
@@ -237,7 +237,7 @@
                       margin: 11%;">
 
                     <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
-                      (click)="goVideo(ofensivosItem.title, ofensivosItem.src);" />
+                      (click)="goVideo(ofensivosItem);" />
 
                   </div>
 
@@ -277,7 +277,7 @@
           style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
           *ngFor="let defensivosItem of defensivosItems, let defensivosItemsIterNumber = index">
 
-          <ion-card>
+          <ion-card [style.opacity]="defensivosItem.enabled ? 1 : 0.6">
 
             <ion-card-content
               style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
@@ -304,7 +304,7 @@
                       margin: 11%;">
 
                     <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
-                      (click)="goVideo(defensivosItem.title, defensivosItem.src);" />
+                      (click)="goVideo(defensivosItem);" />
 
                   </div>
 
@@ -344,7 +344,7 @@
           style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
           *ngFor="let otrosItem of otrosItems, let otrosItemsIterNumber = index">
 
-          <ion-card>
+          <ion-card [style.opacity]="otrosItem.enabled ? 1 : 0.6">
 
             <ion-card-content
               style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
@@ -371,7 +371,7 @@
                       margin: 11%;">
 
                     <img style="display: inline;" src="./assets/imgs/videoButton.jpg"
-                      (click)="goVideo(otrosItem.title, otrosItem.src);" />
+                      (click)="goVideo(otrosItem);" />
 
                   </div>
 
