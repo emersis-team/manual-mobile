@@ -1,6 +1,10 @@
 import { Component } from '@angular/core';
 import { NavController } from 'ionic-angular';
-import { OtrosPage } from '../otros/otros';
+import { PjtPage } from '../pjt/pjt';
+import { CartografiaPage } from '../cartografia/cartografia';
+import { ApyFgoPage } from '../apyFgo/apyFgo';
+import { TteoPage } from '../tteo/tteo';
+import { SostenimientoPage } from '../sostenimiento/sostenimiento';
 import { ProcedimientosCombatePage } from '../procedimientosCombate/procedimientosCombate';
 
 @Component({
@@ -17,8 +21,24 @@ export class HomePage {
     this.navCtrl.setRoot(ProcedimientosCombatePage);
   }
 
-  goToOtros() {
-    this.navCtrl.setRoot(OtrosPage);
+  goToPjt() {
+    this.navCtrl.setRoot(PjtPage);
+  }
+
+  goToCartografia() {
+    this.navCtrl.setRoot(CartografiaPage);
+  }
+
+  goToApyFgo() {
+    this.navCtrl.setRoot(ApyFgoPage);
+  }
+
+  goToTteo() {
+    this.navCtrl.setRoot(TteoPage);
+  }
+
+  goToSostenimiento() {
+    this.navCtrl.setRoot(SostenimientoPage);
   }
 
 }

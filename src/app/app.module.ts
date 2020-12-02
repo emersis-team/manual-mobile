@@ -5,7 +5,11 @@ import { IonicApp, IonicErrorHandler, IonicModule } from 'ionic-angular';
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ProcedimientosCombatePage } from '../pages/procedimientosCombate/procedimientosCombate';
-import { OtrosPage } from '../pages/otros/otros';
+import { PjtPage } from '../pages/pjt/pjt';
+import { ApyFgoPage } from '../pages/apyFgo/apyFgo';
+import { CartografiaPage } from '../pages/cartografia/cartografia';
+import { TteoPage } from '../pages/tteo/tteo';
+import { SostenimientoPage } from '../pages/sostenimiento/sostenimiento';
 import { VideoPage } from '../pages/video/video';
 
 import { StatusBar } from '@ionic-native/status-bar';
@@ -16,7 +20,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ProcedimientosCombatePage,
-    OtrosPage,
+    PjtPage,
+    ApyFgoPage,
+    CartografiaPage,
+    TteoPage,
+    SostenimientoPage,
     VideoPage
   ],
   imports: [
@@ -28,7 +36,11 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     MyApp,
     HomePage,
     ProcedimientosCombatePage,
-    OtrosPage,
+    PjtPage,
+    ApyFgoPage,
+    CartografiaPage,
+    TteoPage,
+    SostenimientoPage,
     VideoPage
   ],
   providers: [

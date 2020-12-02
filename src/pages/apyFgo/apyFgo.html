@@ -1,0 +1,101 @@
+<ion-header>
+
+  <ion-navbar color="primary">
+
+    <div style="display: flex;">
+
+      <div style="flex: 1;">
+
+        <button ion-button style="background-color: transparent; box-shadow: none;" (click)="goToCartografia()">
+          <ion-icon name="arrow-back"></ion-icon>
+        </button>
+
+      </div>
+
+      <div style="flex: 1; text-align: center;">
+        <h6 style="
+            min-width: 240px;
+            color: white;
+          ">
+          Apy Fgo
+        </h6>
+      </div>
+
+      <div style="flex: 1; text-align: right;">
+
+        <button ion-button style="background-color: transparent; box-shadow: none;" (click)="goToTteo()">
+          <ion-icon name="arrow-forward"></ion-icon>
+        </button>
+
+      </div>
+
+    </div>
+
+  </ion-navbar>
+
+</ion-header>
+
+<ion-content style="background-color: rgb(210, 217, 226);">
+
+  <ion-list lines="none">
+
+    <ion-item lines="none"
+      style="background-color: rgb(210, 217, 226); padding-left: 0 !important; padding-right: 0 !important"
+      *ngFor="let apyFgoItem of apyFgoItems, let apyFgoItemIterNumber = index">
+
+      <ion-card [style.opacity]="apyFgoItem.enabled ? 1 : 0.6">
+
+        <ion-card-content
+          style="padding-left: 0 !important; padding-right: 0 !important; margin-left: 0 !important; margin-right: 0 !important;">
+
+          <div style="
+            height: 100%;
+            padding: 0;
+            margin: 0;
+            display: -webkit-box;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            align-items: center;
+            justify-content: center;">
+
+            <div style="
+              flex: 1; 
+              text-align: center;">
+
+              <div style="
+                  background-color: rgb(110, 1, 7);
+                  border-radius: 13%;
+                  margin: 11%;">
+
+                <img style="display: inline;" src="./assets/imgs/videoButton.jpg" (click)="goVideo(apyFgoItem);" />
+
+              </div>
+
+            </div>
+
+            <div style="
+              flex: 3; 
+              text-align: left;">
+
+              <h2 style="
+                Color: rgb(110, 1, 7);">
+                {{apyFgoItem.title}}
+              </h2>
+
+              <p style="white-space: pre-wrap;">{{apyFgoItem.description}}</p>
+
+            </div>
+
+          </div>
+
+        </ion-card-content>
+
+      </ion-card>
+
+    </ion-item>
+
+  </ion-list>
+
+</ion-content>

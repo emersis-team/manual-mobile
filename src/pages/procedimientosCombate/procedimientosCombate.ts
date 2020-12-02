@@ -1,6 +1,6 @@
 import { Component, ViewChild } from '@angular/core';
 import { NavController, Slides } from 'ionic-angular';
-import { OtrosPage } from '../otros/otros';
+import { PjtPage } from '../pjt/pjt';
 import { HomePage } from '../home/home';
 import { VideoPage } from '../video/video';
 
@@ -79,8 +79,8 @@ export class ProcedimientosCombatePage {
         this.navCtrl.setRoot(HomePage);
     }
 
-    goToOtros() {
-        this.navCtrl.setRoot(OtrosPage);
+    goToPjt() {
+        this.navCtrl.setRoot(PjtPage);
     }
 
     // Initialize slider
