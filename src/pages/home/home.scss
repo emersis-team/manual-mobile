@@ -5,18 +5,21 @@
 #apyFgo,
 #tteo,
 #sostenimiento {
-    background-color: #424040a8;
-    border: 1px solid white;
+    //background-color: #424040a8;
+    background-color: transparent;
+    border-bottom: 1px solid white;
     color: white;
     padding: 10px 20px;
+    padding-bottom: 16px;
     text-align: center;
     text-decoration: none;
+    width: 90%;
     display: inline-block;
     margin: 4px 2px;
-    border-radius: 16px;
+    //border-radius: 16px;
 }
 
-#otros:active, 
+/*#otros:active, 
 #pjt:active, 
 #procedimientoCombate:active,
 #cartografia:active,
@@ -24,4 +27,4 @@
 #tteo:active,
 #sostenimiento:active {
     background-color: #424040eb;
-}
+}*/

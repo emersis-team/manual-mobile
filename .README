@@ -2,6 +2,9 @@
 $ ionic build --prod --base-href https://emersis-team.github.io/manual-mobile/
 $ npx angular-cli-ghpages --dir=www
 
+// Iconos y Splash
+$ capacitor-resources
+
 // Test en android
 $ ionic build
 $ ionic cap add android

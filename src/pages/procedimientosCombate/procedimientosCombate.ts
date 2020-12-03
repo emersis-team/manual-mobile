@@ -30,8 +30,8 @@ export class ProcedimientosCombatePage {
         this.proteccionItems = [
             { title: 'Contra misiles Atan', description: '', src: './assets/imgs/contraAtan.mp4', enabled: true },
             { title: 'Contra Fgo A', description: '', src: '', enabled: false },
-            { title: 'Contra Atq Ae aviones', description: '', src: '', enabled: false },
-            { title: 'Contra Atq Ae helicópteros', description: '', src: '', enabled: false },
+            { title: 'Contra Atq Aeronaves', description: '', src: '', enabled: false },
+            { title: 'Contra Atq Helicópteros', description: '', src: '', enabled: false },
             { title: 'Contra minas', description: '', src: '', enabled: false },
             { title: 'Contra Obs y Vig', description: '', src: '', enabled: false },
             { title: 'Tipos de posiciones', description: '', src: '', enabled: false }
